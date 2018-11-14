@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RedPointSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image source="com.frame_remind" left="0" top="0" touchEnabled="false"/>
+</e:Skin>

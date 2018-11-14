@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LuckyCardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="cardGroup" left="0" top="0" scaleX="1" scaleY="1">
+		<e:Image left="0" top="0" source="luckyCard_json.luckyCard_icon_di3"/>
+		<e:Image id="iconImg" verticalCenter="-18.5" horizontalCenter="0"/>
+		<e:Label id="txt_count" text="0" fontFamily="Microsoft YaHei" size="26" stroke="2" strokeColor="0x2e2c31" right="13" bottom="43"/>
+		<e:List id="listHead" height="37" horizontalCenter="0" bottom="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="2"/>
+			</e:layout>
+		</e:List>
+		<e:Image id="backImg" source="luckyCard_json.luckyCard_icon_4" horizontalCenter="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

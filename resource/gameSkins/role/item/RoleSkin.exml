@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="role_json.role_icon_di2" top="0" horizontalCenter="0" locked="true"/>
+	<e:Image source="role_json.role_icon_di3" scale9Grid="6,5,41,32" anchorOffsetX="0" width="176" x="16" y="165"/>
+	<e:Image id="roleImg" source="" horizontalCenter="0" width="160" height="170" verticalCenter="-15"/>
+	<e:Label id="txt_level" text="Lv 0" fontFamily="Microsoft YaHei" bold="true" size="28" stroke="2" strokeColor="0xa1441b" right="24" bottom="50" textAlign="right"/>
+	<e:Image id="selectImg" source="role_json.role_icon_xuanzhong" horizontalCenter="0" top="4" visible="false"/>
+	<e:Image id="tagImg" source="role_json.role_icon_wold_1" left="25" top="23"/>
+	<e:Image source="role_json.role_icon_di1" right="0" top="0"/>
+	<e:List id="listStar" height="53" y="212.34" scaleX="0.7" scaleY="0.7" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+		</e:layout>
+	</e:List>
+	<e:Image id="quaImg" source="com.com_qua_1" scaleX="0.5" scaleY="0.6" horizontalCenter="73.5" top="16"/>
+	<e:Group id="dataGroup" bottom="0" horizontalCenter="0">
+		<e:Image source="role_json.role_icon_jinbidi" scale9Grid="18,13,36,10" width="170" x="0" y="0"/>
+		<e:Image id="iconImg" source="com.com_item_1" left="5" verticalCenter="0"/>
+		<e:Label id="txt_count" text="0" fontFamily="Microsoft YaHei" bold="true" size="28" textColor="0xffffff" stroke="2" strokeColor="0x2e2c31" right="11" verticalCenter="0.5"/>
+	</e:Group>
+</e:Skin>

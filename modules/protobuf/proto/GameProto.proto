@@ -1,0 +1,150 @@
+package protocol;
+option java_package = "com.game.protobuf";
+option java_outer_classname = "GameProtoMsg";
+
+// 幸运翻牌:111    <====服务端推送
+message OpenCardMsg {
+	required int32 openCardNum = 1;         // 翻牌剩余次数
+	required int32 index = 2;			// 翻牌的下标
+	required int32 x = 3;
+	required int32 y = 4;
+}
+
+// 幸运翻牌卡池: 113  <====服务端推送
+message OpenCardItemListMsg {
+	repeated CardItemMsg list = 1;
+	required int32 quality = 2; //卡池类型
+	required bool open = 3; //是否打开界面, 客户端用
+}
+message CardItemMsg {
+	required int32 index = 1;         // 唯一Id
+	required int32 itemId = 2;       // 物品Id
+	required int32 num = 3;			// 数量
+}
+
+// 幸运翻牌奖励推送:112    <====服务端推送
+// 协议体：MailProtoMsg.ItemResMsg
+
+// 幸运翻牌关闭时清理: 103    <====客户端请求
+// 协议体: 空
+
+// 幸运翻牌钻石广告次数查询: 104 <====客户端请求
+// 协议体: 空
+
+// 幸运翻牌钻石广告次数查询: 114 <====服务端推送
+message OpenCardNumMsg {
+	required int32 openCardDiamond = 1;  // 翻牌需要消耗的钻石数
+	required int32 openCardDiamondNum = 2;      // 钻石翻牌购买次数
+	required int32 openCardAdNum = 3;      // 看广告翻牌次数
+	required int32 openCardNum = 4;      // 翻牌剩余次数
+}
+
+// 翻牌: 102    <====客户端请求
+// 协议体: 空
+
+
+// 消息类型：客户端<<========
+// 指令号：107
+// 指令名：开启世界boss
+// 协议体：CommonMsg
+// 参数说明：intPar1:道具id(钥匙)
+
+// 消息类型：服务器
+// 指令号：115
+// 指令名：世界boss个人数据信息
+message PlayerWorldBossMsg {
+	required int32 roomId = 1;         // 房间id  0-表示未开启或上次已结束
+	required int32 missionId = 2;      // 关卡id
+	required int32 power = 3;          // 体力
+	required bool isOver = 4;          // 是否已结束  true-结束了 false-未结束
+	required string overTime = 5;      // 结束时间
+	required string powerTime = 6;     // 体力恢复时间
+	required int32 bossLeftHp = 7;     // bosss剩余血量
+}
+
+// 消息类型：服务器
+// 指令号：116
+// 指令名：世界boss排行榜信息
+message FriendWorldBossRankListMsg {
+	repeated FriendWorldBossRankMsg list = 1; // 排行榜列表
+}
+
+// 消息类型：服务器
+// 指令号：117
+// 指令名：世界boss排行榜个人信息更新
+message FriendWorldBossRankMsg {
+	required int32 playerId = 1;          // 玩家id
+	required string nickName = 2;         // 昵称
+	required string headPic = 3;          // 头像
+	required int32 totalHurtHp = 4;       // 累计伤害
+	required int32 singleHurtHpMax = 5;   // 单次最高伤害
+}
+
+// 消息类型：服务端
+// 指令号：118
+// 指令名：游戏结束
+// 协议体：CommonMsg
+// 参数说明：boolPar1:是否胜利 true-正常打爆 false-时间到了未打爆
+
+// 消息类型：客户端<<========
+// 指令号：108
+// 指令名：加入世界boss房间
+// 协议体：CommonMsg
+// 参数说明：intPar1:房间号
+
+// 消息类型：客户端<<========
+// 指令号：109
+// 指令名：领取世界boss奖励
+// 协议体：空
+
+// 消息类型：客户端<<========
+// 指令号：110
+// 指令名：领取世界boss体力
+// 协议体：空
+// 服务器回发：指令115 世界boss个人数据信息
+
+// 消息类型：客户端<<========
+// 指令号：100
+// 指令名：开始副本
+// 协议体：CommonMsg
+// 参数说明：intPar1:missionId
+
+// 消息类型：服务器
+// 指令号：120
+// 指令名：进入副本
+// 协议体：CommonMsg
+// 参数说明：intPar1:missionId
+
+// 消息类型：客户端<<========
+// 指令号：101
+// 指令名：游戏结算
+message GameOverReqMsg {
+	required int32 score = 1;      // 积分（世界boss传总伤害）
+	repeated int32 cups = 2;       // 奖杯数
+	repeated int32 keys = 3;       // 钥匙数
+}
+
+// 消息类型：服务器
+// 指令号：101
+// 指令名：单场世界boss游戏结束
+// 协议体：CommonMsg
+// 参数说明：intPar1:boss剩余血量
+
+// 消息类型：服务器
+// 指令号：121
+// 指令名：单人副本结算
+message SingleGameOverMsg {
+	required int32 cup = 1;    // 奖杯数
+	required int32 gold = 2;   // 金币
+	required int32 score = 3;  // 积分
+}
+
+// 幸运抽卡头像信息  119  <====服务端推送
+message OpenCardHeadPicMsg {
+	required int32 playerId = 1;
+	required string headPic = 2;
+	required string indexList = 3;
+	optional int32 dropId = 4;
+}
+
+

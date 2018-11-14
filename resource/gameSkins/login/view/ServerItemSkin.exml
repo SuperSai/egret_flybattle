@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ServerItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="289" height="74">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="289" height="74">
+		<e:Image source="login_json.login_icon_btn_3" horizontalCenter="0" verticalCenter="0"/>
+		<e:Group width="74" height="74" left="0" verticalCenter="0">
+			<e:Image source="login_json.login_icon_dikuang2" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label id="serverInfoLabel" text="1" anchorOffsetX="0" width="50" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="60" textColor="0xffffff" strokeColor="0x996469" stroke="2" bold="true" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="serverStateIcon" horizontalCenter="0" verticalCenter="0" source="login_json.login_icon_xin"/>
+		</e:Group>
+		<e:Label id="serverNameLabel" text="服务器名字" anchorOffsetX="0" width="210" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="60" textColor="0x503637" size="26" strokeColor="0xffffff" stroke="2" bold="true" right="0" verticalCenter="0"/>
+	</e:Group>
+</e:Skin>

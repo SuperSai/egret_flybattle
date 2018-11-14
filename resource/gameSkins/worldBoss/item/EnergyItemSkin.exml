@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="EnergyItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="iconImg" left="0" top="0" source="worldBoss_json.worldBoss_tili1"/>
+</e:Skin>

@@ -1,0 +1,13 @@
+{"file":"login.png","frames":{
+"login_icon_btn_1":{"x":712,"y":540,"w":180,"h":84,"offX":0,"offY":0,"sourceW":180,"sourceH":84},
+"login_icon_btn_1_2":{"x":712,"y":454,"w":180,"h":84,"offX":0,"offY":0,"sourceW":180,"sourceH":84},
+"login_icon_btn_2":{"x":712,"y":368,"w":180,"h":84,"offX":0,"offY":0,"sourceW":180,"sourceH":84},
+"login_icon_btn_2_2":{"x":712,"y":282,"w":180,"h":84,"offX":0,"offY":0,"sourceW":180,"sourceH":84},
+"login_icon_btn_3":{"x":712,"y":106,"w":289,"h":74,"offX":0,"offY":0,"sourceW":289,"sourceH":74},
+"login_icon_dikuang2":{"x":894,"y":338,"w":74,"h":74,"offX":0,"offY":0,"sourceW":74,"sourceH":74},
+"login_icon_dikuang3":{"x":1,"y":1,"w":709,"h":1067,"offX":0,"offY":0,"sourceW":709,"sourceH":1067},
+"login_icon_huo":{"x":894,"y":414,"w":62,"h":68,"offX":0,"offY":0,"sourceW":62,"sourceH":68},
+"login_icon_xin":{"x":912,"y":268,"w":87,"h":68,"offX":0,"offY":0,"sourceW":87,"sourceH":68},
+"login_name_icon":{"x":712,"y":182,"w":198,"h":98,"offX":0,"offY":0,"sourceW":198,"sourceH":98},
+"login_saizi":{"x":912,"y":182,"w":84,"h":84,"offX":0,"offY":0,"sourceW":84,"sourceH":84},
+"login_startBtn":{"x":712,"y":1,"w":279,"h":103,"offX":0,"offY":0,"sourceW":279,"sourceH":103}}}

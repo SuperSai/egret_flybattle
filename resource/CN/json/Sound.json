@@ -1,0 +1,10 @@
+﻿{
+"titles":["musicID","type","desc","file","loop","volume"],
+"data":[[1001,1,"场景BGM","BattleBGM.mp3",1,1],
+[1002,1,"BOSSBGM","BossBGM.mp3",1,1],
+[1003,1,"1000 子弹受击","zidanshouji_1000.mp3",1,1],
+[1004,1,"1000 子弹射击","zidansheji_1000.mp3",1,1],
+[1005,1,"怪物死亡","death.mp3",1,1],
+[1006,1,"陨石","yunshi.mp3",1,1],
+[2001,1,"boss攻击","boss.mp3",1,1]]
+}

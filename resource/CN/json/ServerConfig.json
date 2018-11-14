@@ -1,0 +1,15 @@
+﻿{
+"titles":["id","value","descinfo"],
+"data":[["WORLD_CHAR_NUM","50","世界聊天：分组人数"],
+["OPNE_CARD_DIAMOND_NUM","100#150#200#250#300","幸运翻牌钻石增长"],
+["DIAMOND_BUY_OPEN_CARD_MAX_NUM","10","钻石购买幸运翻牌最大次数"],
+["OPEN_CARD_AD_MAX_NUM","10","观看广告幸运翻牌最大次数"],
+["WORLD_BOSS_POWER","5","世界boss默认体力"],
+["OPEN_CARD_COUNT","20","幸运翻牌卡池物品数量"],
+["MESSAGE_RELEASE_WORLD_BOSS","{0}开启了一场{1},快加入战斗吧","世界boss消息发布"],
+["OPEN_CARD_MAIL_TITLE","幸运翻牌","幸运翻牌邮件标题"],
+["OPEN_CARD_MAIL_CONTENT","幸运翻牌物品","幸运翻牌邮件内容"],
+["OPEN_CARD_QUALITY","1001#1|1002#2|1003#3|1004#4","幸运翻牌卡池品质"],
+["WORLD_BOSS_POWER_TIME","600","世界boss体力恢复时间（单位秒）"],
+["WORLD_BOSS_TIME","60000","世界BOSS副本时间（单位毫秒）"]]
+}

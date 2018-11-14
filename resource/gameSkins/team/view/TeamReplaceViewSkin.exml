@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TeamReplaceViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="676" height="1150" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="com.icon_tankuangdi" scaleX="1" scaleY="1" scale9Grid="18,17,56,55" left="0" right="0" top="0" bottom="0"/>
+		<e:Image source="com.icon_tankuangwenli" scaleY="-1" top="0" y="295" scaleX="1" horizontalCenter="0"/>
+		<e:Image id="heroImg" top="0" left="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image source="com.icon_tankuangwenli" scaleX="1" horizontalCenter="0" bottom="0"/>
+		<e:Image source="role_json.role_icon_di8" scale9Grid="34,24,50,66" width="646" height="564" horizontalCenter="0" verticalCenter="169"/>
+		<e:Group id="btn_ssr" name="btnBgSSR" touchChildren="false" top="407" left="39">
+			<e:Image id="btnBgSSR" x="0" y="0" source="role_json.role_btn_3"/>
+			<e:Label text="SSR" bold="true" textAlign="center" fontFamily="Microsoft YaHei" verticalCenter="-10" horizontalCenter="0" textColor="0x2E2C31"/>
+		</e:Group>
+		<e:Group id="btn_sr" name="btnBgSR" touchChildren="false" horizontalCenter="-76" top="407" x="10" y="10">
+			<e:Image id="btnBgSR" source="role_json.role_btn_3" x="0" y="0"/>
+			<e:Label text="SR" bold="true" textAlign="center" fontFamily="Microsoft YaHei" verticalCenter="-10" horizontalCenter="0" textColor="0x2E2C31"/>
+		</e:Group>
+		<e:Group id="btn_r" name="btnBgR" touchChildren="false" horizontalCenter="76" top="407" x="10" y="10">
+			<e:Image id="btnBgR" source="role_json.role_btn_3" x="0" y="0"/>
+			<e:Label text="R" bold="true" textAlign="center" fontFamily="Microsoft YaHei" verticalCenter="-10" horizontalCenter="0" textColor="0x2E2C31"/>
+		</e:Group>
+		<e:Group id="btn_all" name="btnBgAll" touchChildren="false" top="407" right="39" x="10" y="10">
+			<e:Image id="btnBgAll" source="role_json.role_btn_3" x="0" y="0"/>
+			<e:Label text="全部" bold="true" textAlign="center" fontFamily="Microsoft YaHei" verticalCenter="-10" horizontalCenter="0" textColor="0x2E2C31"/>
+		</e:Group>
+		<e:Group id="btn_captain" touchChildren="false" horizontalCenter="0.5" bottom="10" name="btn_captain_1#1" x="223" y="1039" scaleX="1" scaleY="1">
+			<e:Image source="com.btn_anniu1" x="0" y="0" scale9Grid="41,33,99,25" anchorOffsetX="0" width="231" anchorOffsetY="0" height="101"/>
+			<e:Label text="设定队长" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" bold="true" textColor="0x2E2C31" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group id="btn_leftPlayer" touchChildren="false" left="0" bottom="10" name="btn_leftPlayer_1#1" x="0" y="1039" scaleX="1" scaleY="1">
+			<e:Image source="com.btn_anniu1" x="0" y="0" scale9Grid="41,33,99,25" anchorOffsetX="0" width="231" anchorOffsetY="0" height="101"/>
+			<e:Label text="设定左队员" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" bold="true" textColor="0x2E2C31" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group id="btn_rightPlayer" touchChildren="false" right="0" bottom="10" name="btn_rightPlayer_1#1" x="445" y="1039" scaleX="1" scaleY="1">
+			<e:Image source="com.btn_anniu1" x="0" y="0" scale9Grid="41,33,99,25" anchorOffsetX="0" width="231" anchorOffsetY="0" height="101"/>
+			<e:Label text="设定右队员" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" bold="true" textColor="0x2E2C31" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Button id="btn_close" label="" scaleY="-1" name="btn_close_1#1" touchChildren="false" scaleX="1" right="0" top="0">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com.btn_close_bg" source.down="com.btn_close_bg" source.disabled="com.btn_close_bg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group y="264.67" left="0" x="0" scaleX="1" scaleY="1">
+			<e:Image scale9Grid="48,0,12,52" anchorOffsetX="0" width="240.33" source="com.com_icon_di5" left="0" bottom="0"/>
+			<e:Image id="quaImg" source="com.com_qua_3" left="24" top="0"/>
+			<e:List id="listStar" height="53" y="49.67" left="14">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Group top="94" right="12" x="232" y="94" scaleX="1" scaleY="1">
+			<e:Image source="role_json.role_icon_di5" scale9Grid="15,15,47,39" width="432" height="274" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="role_json.role_icon_xingmingdi" horizontalCenter="0.5" top="12"/>
+			<e:Image source="role_json.role_icon_di1" left="18" top="4"/>
+			<e:Image source="role_json.role_icon_fenjiexian" y="126" scale9Grid="17,0,32,3" width="350" horizontalCenter="0"/>
+			<e:Image x="262.33" y="83.67" source="com.com_icon_sh"/>
+			<e:Label id="txt_attack" text="0" y="85.01" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" textAlign="center" left="313" size="33"/>
+			<e:Label text="Lv" y="82.66" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" textAlign="center" left="56"/>
+			<e:Label id="txt_level" text="0" y="83" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" textAlign="center" left="110" size="33"/>
+			<e:Label id="txt_heroName" text="角色名字" y="19.37" fontFamily="Microsoft YaHei" bold="true" textAlign="center" textColor="0x2E2C31" horizontalCenter="0"/>
+			<e:List id="listSkill" height="108" y="147" horizontalCenter="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom" gap="14"/>
+			</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Scroller height="522.06" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="172">
+			<e:Group>
+			<e:List id="listRole" horizontalCenter="0" top="0">
+				<e:layout>
+				<e:TileLayout horizontalAlign="center" verticalAlign="top" requestedColumnCount="3" columnWidth="208" rowHeight="250" horizontalGap="6"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+		</e:Scroller>
+	</e:Group>
+</e:Skin>

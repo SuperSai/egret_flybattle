@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="role_json.role_icon_jinengdi" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="skillImg" horizontalCenter="0" verticalCenter="0" width="90" height="90" source=""/>
+	<e:Image source="role_json.role_icon_jinengxhang" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="txt_level" text="Lv.1" bottom="15" right="12" fontFamily="Microsoft YaHei" size="26" stroke="2" strokeColor="0x2e2c31" bold="true" textAlign="right"/>
+</e:Skin>

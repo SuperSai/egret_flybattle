@@ -1,0 +1,23 @@
+package protocol;
+option java_package = "com.game.protobuf";
+option java_outer_classname = "ShopProtoMsg";
+
+// 抽英雄 450 <=====客户端请求
+// 协议体: 空
+
+// 抽英雄 601 <=====服务端响应
+// 协议体: CommonMsg
+// 参数说明：intPar1:抽到的awardId
+
+// 初始化魔法抽卡界面 451 <=====客户端请求
+// 协议体: 空
+
+// 初始化魔法抽卡界面 601 <=====服务端响应
+// 协议体: CommonMsg
+// 参数说明：strPar1:要展示的奖励列表awardId(#号分割)
+// 参数说明：intPar1:最高品质的英雄id
+
+// 领取抽到的奖励 452  <=====客户端请求
+// 协议体: CommonMsg
+// 参数说明：intPar1:抽到的awardId
+

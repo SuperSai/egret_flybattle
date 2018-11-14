@@ -1,0 +1,50 @@
+package protocol;
+option java_package = "com.game.protobuf";
+option java_outer_classname = "HeroProtoMsg";
+
+// 英雄列表 300 =====>服务器推送
+message HeroListMsg {
+	repeated HeroMsg list = 1; // 英雄列表
+}
+
+// 单个英雄 301 =====>服务器推送
+message HeroMsg {
+	required int32 heroId = 1;      // 唯一id
+	required int32 configId = 2;    // 配置id
+	required int32 level = 3;       // 等级
+	required int32 star = 4;        // 星数
+	optional int32 wingId = 5;      // 翅膀Id
+}
+
+// 英雄升级  ====> 300 客户端请求
+// 协议体: CommonMsg
+// 参数说明：intPar1: 英雄id
+// 回发：单个英雄301
+
+// 英雄升星  ====> 301 客户端请求
+// 协议体: CommonMsg
+// 参数说明：intPar1: 英雄id
+// 回发：英雄列表300
+
+// 英雄布阵  ====> 302 客户端请求
+// 协议体: CommonMsg
+// 参数说明：intPar1: 英雄id 队长
+// 参数说明：intPar2: 英雄id 左队员
+// 参数说明：intPar3: 英雄id 右队员
+
+// 英雄布阵  ====> 302 服务器推送
+// 协议体: CommonMsg
+// 参数说明：intPar1: 英雄id 队长
+// 参数说明：intPar2: 英雄id 左队员
+// 参数说明：intPar3: 英雄id 右队员
+
+// 出售英雄  ====> 303 客户端请求
+// 协议体: CommonMsg
+// 参数说明：strPar1: 英雄id列表(id#id)
+
+// 出售英雄 300 =====>服务器推送
+// 英雄布阵  ====> 302 服务器推送(注: 如果卖掉了左右队员)
+
+
+
+

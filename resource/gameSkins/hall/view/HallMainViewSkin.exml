@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HallMainViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:UI="UI.*" xmlns:ns1="*">
+	<e:Group id="container" horizontalCenter="0" anchorOffsetX="360" anchorOffsetY="1280" bottom="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" touchEnabled="false" source="hall_json.hall_beijing"/>
+		<e:Image source="hall_json.hall_icon_xiamiandi" scale9Grid="273,0,105,162" width="100%" horizontalCenter="0" bottom="0" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_libao" x="474.13" bottom="2" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_huawen" bottom="510" right="0" touchEnabled="false" scaleX="0.7" scaleY="0.7"/>
+		<e:Image id="heroImg" left="0" top="117" touchEnabled="false" x="10" y="10" source="" height="660"/>
+		<e:Image source="hall_json.hall_icon_di6" scale9Grid="45,23,275,138" width="100%" horizontalCenter="0" bottom="162" height="350" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_huawen" bottom="510" scaleX="-0.7" left="0" touchEnabled="false" scaleY="0.7"/>
+		<e:Image source="hall_json.hall_icon_touxiangdi2" left="18" top="-2" touchEnabled="false"/>
+		<e:Image id="maskImg" left="23" top="3" touchEnabled="false" width="103" height="102" source="hall_json.hall_icon_touxiangdi2" scaleX="0.9" scaleY="0.9"/>
+		<e:Image source="hall_json.hall_icon_touxiangdi1" left="0" top="0" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_tuodongkuan" bottom="200" touchEnabled="false" left="0"/>
+		<e:Image source="hall_json.hall_icon_tuodongkuan" bottom="200" scaleX="-1" touchEnabled="false" right="1"/>
+		<e:Image touchEnabled="false" source="com.com_icon_di5" scale9Grid="49,0,14,52" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="hall_json.hall_icon_xingmingdi" scale9Grid="26,0,114,66" width="410" horizontalCenter="35" verticalCenter="60" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_di4" x="114.65" y="650.33" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_word_1" horizontalCenter="0.5" bottom="166" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_jiantou" right="129" bottom="168" touchEnabled="false"/>
+		<e:Image source="hall_json.hall_icon_jiantou" bottom="168" scaleX="-1" left="129" touchEnabled="false"/>
+		<e:Label id="txt_heroName" text="名字" bold="true" textColor="0x554d4d" left="227" verticalCenter="60" textAlign="left"/>
+		<e:Label text="邀请好友获得豪华福利！" y="1153.71" bold="true" textColor="0x554d4d" horizontalCenter="0"/>
+		<e:Button id="btn_tool" label="" bottom="0" right="0" name="btn_tool_1#1" touchChildren="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_json.hall_btn_zhucaidan" source.down="hall_json.hall_btn_zhucaidan" source.disabled="hall_json.hall_btn_zhucaidan"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_change" label="" left="128" verticalCenter="59" name="btn_change_1#1" touchChildren="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_json.hall_icon_bianhuan" source.down="hall_json.hall_icon_bianhuan" source.disabled="hall_json.hall_icon_bianhuan"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_details" label="" horizontalCenter="193" verticalCenter="60" name="btn_details_1#1" touchChildren="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="hall_json.hall_icon_gantanhao" source.down="hall_json.hall_icon_gantanhao" source.disabled="hall_json.hall_icon_gantanhao"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="btn_boss" y="192" right="0" name="btn_boss_1#1" touchChildren="false">
+			<e:Image source="hall_json.hall_icon_boss" left="0" top="0"/>
+		</e:Group>
+		<e:Group id="btn_activity" right="0" top="70" name="btn_activity_1#1" touchChildren="false">
+			<e:Image source="hall_json.hall_jinatoudi" left="0" top="0"/>
+			<e:Image id="arrowImg" source="hall_json.hall_jiangtou" verticalCenter="0" right="0" scaleX="1"/>
+		</e:Group>
+		<e:Group id="btn_chat" right="18" bottom="598" name="btn_chat_1#1" touchChildren="false">
+			<e:Image source="hall_json.hall_icon_di4" x="0" y="0"/>
+			<e:Image source="hall_json.hall_icon_liaotian" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_invite" left="20" bottom="14" name="btn_invite_1#1" touchChildren="false">
+			<e:Image source="hall_json.hall_icon_btn_2"/>
+			<e:Label text="邀请\n好友" anchorOffsetX="0" size="34" textAlign="center" verticalAlign="middle" horizontalCenter="0" verticalCenter="0" bold="true" textColor="0x2e2c31"/>
+		</e:Group>
+		<e:Group id="touchArea" width="440" height="198" touchThrough="false" anchorOffsetY="0" anchorOffsetX="0" bottom="240" horizontalCenter="0"/>
+		<ns1:ProgressBarNew id="friendPro" horizontalCenter="-23" bottom="31" width="310" height="30" skinName="skins.ProgressBarSkin"/>
+		<ns1:CurrencyItem id="gold" skinName="CurrencyItemSkin" top="16" right="206"/>
+		<ns1:CurrencyItem id="diamond" skinName="CurrencyItemSkin" top="16" y="10" right="6"/>
+		<e:Image id="headImg" left="18" top="-2" touchEnabled="false" width="103" height="102" source=""/>
+		<e:Group horizontalCenter="0.5" verticalCenter="2.5">
+			<e:Image id="quaImg" source="com.com_qua_3" x="0" y="3"/>
+			<e:List id="listStar" height="53" x="115" y="0">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom"/>
+			</e:layout>
+			</e:List>
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="bottom"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

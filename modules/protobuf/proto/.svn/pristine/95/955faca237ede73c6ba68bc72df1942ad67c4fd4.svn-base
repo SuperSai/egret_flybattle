@@ -1,0 +1,70 @@
+package protocol;
+option java_package = "com.game.protobuf";
+option java_outer_classname = "PlayerProtoMsg";
+
+// 玩家登录 1   <===客户端请求
+// 协议体：CommonMsg
+// 参数说明：intPar1:玩家id
+
+//============ 心跳包协议==========================
+// 1.客户端请求 02 <=====客户端请求
+//	  协议体：空
+// 2.服务器推送 011  ====>服务器推送
+//   协议体：CommonMsg
+//   参数说明：stringPar1:服务器时间戳
+//===============================================
+
+// 更改用户信息 ====> 003
+message AccountMsg {
+	required string nickName = 1; // 昵称
+	required string birth = 2;    //生日
+	required string remark = 3;   //个人简介
+}
+
+// 查询对象详情  ====> 007 客户端请求
+// 协议体: CommonMsg
+// 参数说明：strPar1: 头像数据
+
+// 查询对象详情  ====> 004 客户端请求
+// 协议体: CommonMsg
+// 参数说明：intPar1: 玩家id
+
+// 查询对象详情 ===> 31 服务器推送
+// 协议体: AccountInfoMsg
+
+// 查询对象详情(游戏列表) ===> 32 服务器推送
+// 协议体: GameListMsg
+
+// 上传头像成功  33  ====> 服务器推送
+// 协议体：CommonMsg
+// 参数说明：strPar1:头像数据
+
+// 用户信息  ===> 30 服务端推送
+message AccountInfoMsg {
+	required string nickName = 1; // 昵称
+	required int32 playerId = 2;    // 账号
+	required string headPic = 3;    // 头像url
+	required int32 missionId = 4;   // 关卡id
+}
+
+// 加入他们 ：06 <=====客户端请求
+// 协议体：空
+
+// 加入成功：28  ====>服务器推送
+// 协议体：空
+
+// 匹配到聊天对象：29  ====>服务器推送
+// 协议体：AccountInfoMsg
+
+// 聊天匹配中的玩家列表27    =======>服务端推送
+message JoinThemList{
+	repeated AccountInfoMsg list = 1;
+}
+
+// 同步位置（经纬度） ：08 <=====客户端请求
+// 协议体：CommonMsg
+// 参数说明：floatPar1:维度
+// 参数说明：floatPar2:经度
+
+// 同步位置（经纬度）成功：36  ====>服务器推送
+// 协议体：空

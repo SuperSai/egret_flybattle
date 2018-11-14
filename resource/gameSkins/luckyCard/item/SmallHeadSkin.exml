@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SmallHeadSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="headImg" source="luckyCard_json.luckyCard_icon_touxiangdi" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="maskImg" source="luckyCard_json.luckyCard_icon_touxiangdi" horizontalCenter="0" verticalCenter="0" x="10" y="10"/>
+	<e:Image source="luckyCard_json.luckyCard_icon_touxiangbian" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

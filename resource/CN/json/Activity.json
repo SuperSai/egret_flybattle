@@ -1,0 +1,6 @@
+﻿{
+"titles":["id","type","name","des","sort","group","resident","icon"],
+"data":[[1,1,"世界BOSS","世界BOSS",1,1,0,"icon_boss"],
+[2,2,"幸运翻牌","幸运翻牌",2,1,0,"icon_boss"],
+[3,3,"活动中心","活动中心",3,1,0,"icon_boss"]]
+}

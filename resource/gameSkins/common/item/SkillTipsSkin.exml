@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SkillTipsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="com.iocn_tipskuang" scale9Grid="16,15,39,43" width="458" height="170" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label id="txt_name" text="技能名字" fontFamily="Microsoft YaHei" bold="true" left="23" top="15"/>
+		<e:Label id="txt_des" text="技能名字" fontFamily="Microsoft YaHei" bold="true" left="23" top="64" anchorOffsetX="0" width="413"/>
+	</e:Group>
+</e:Skin>

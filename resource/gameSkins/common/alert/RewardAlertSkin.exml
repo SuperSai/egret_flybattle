@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RewardAlertSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg" width="678" height="506" source="com.icon_tankuangdi" scale9Grid="19,18,56,54" horizontalCenter="0" verticalCenter="0"/>
+		<e:Label text="获得奖励" fontFamily="Microsoft YaHei" size="40" bold="true" textAlign="center" name="@reward.tip" horizontalCenter="0" top="46" textColor="0x2e2c31"/>
+		<e:Group id="btn_sure" name="btn_sure_1#1" touchChildren="false" bottom="16" horizontalCenter="0">
+		<e:Image x="0" source="com.btn_anniu3"/>
+		<e:Label text="确定" fontFamily="Microsoft YaHei" bold="true" strokeColor="0xFFFFFF" name="@ok" horizontalCenter="0" verticalCenter="0" textColor="0x2e2c31"/>
+		</e:Group>
+		<e:Button id="btn_close" label="" scaleY="-1" right="7" top="-1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com.btn_close_bg" source.down="com.btn_close_bg" source.disabled="com.btn_close_bg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" top="172">
+			<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" top="-50" bottom="-50" width="620" x="0"/>
+			<e:List id="lists" horizontalCenter="0" top="0">
+				<e:layout>
+				<e:TileLayout horizontalAlign="center" verticalAlign="middle" requestedColumnCount="4"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+	</e:Group>
+</e:Skin>

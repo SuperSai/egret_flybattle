@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossMainViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="worldBoss_json.worldBoss_di"/>
+		<e:Label text="使用幻境水晶开启幻境？" horizontalCenter="0" bottom="392" fontFamily="Microsoft YaHei" bold="true"/>
+		<e:Image source="worldBoss_json.worldBoss_di2" scale9Grid="34,28,70,41" width="696" height="100" horizontalCenter="0" bottom="130"/>
+		<e:Image source="worldBoss_json.worldBoss_icon_di7" anchorOffsetY="0" height="55" scale9Grid="9,10,60,22" anchorOffsetX="0" width="159.82" right="133" bottom="154"/>
+		<e:Label id="txt_time" text="" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="132.5" textAlign="center" bottom="167" size="28"/>
+		<e:List id="lists" height="49" anchorOffsetY="0" left="53" bottom="155">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		<e:Group id="btn_open" name="btn_open_1#1" touchChildren="false" bottom="279" horizontalCenter="0" x="248" y="937" scaleX="1" scaleY="1">
+			<e:Image source="com.btn_anniu3" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="开启幻境" fontFamily="Microsoft YaHei" bold="true" textColor="0x2E2C31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_add" right="40" bottom="150" name="btn_add_1#1" touchChildren="false" width="128" height="63">
+			<e:Button label="" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="worldBoss_json.worldBoss_btn_+" source.down="worldBoss_json.worldBoss_btn_+" source.disabled="worldBoss_json.worldBoss_btn_+"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="advImg" source="com.com_guangao" right="-32" top="-29"/>
+		</e:Group>
+		<e:Button id="btn_close" label="" bottom="0" right="0" name="btn_close_1#1" touchChildren="false" x="581" y="1209" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:ns1="*">
+				<e:Image width="100%" height="100%" source="com.btn_fanhui" source.down="com.btn_fanhui" source.disabled="com.btn_fanhui"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

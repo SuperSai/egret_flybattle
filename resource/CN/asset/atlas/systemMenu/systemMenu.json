@@ -1,0 +1,8 @@
+{"file":"systemMenu.png","frames":{
+"menu_icon_shangdian":{"x":649,"y":183,"w":309,"h":179,"offX":0,"offY":0,"sourceW":309,"sourceH":179},
+"menu_icon_shezi":{"x":467,"y":199,"w":134,"h":117,"offX":0,"offY":0,"sourceW":134,"sourceH":117},
+"menu_icon_youjian":{"x":329,"y":199,"w":134,"h":117,"offX":0,"offY":0,"sourceW":134,"sourceH":117},
+"menu_icon_biancheng":{"x":649,"y":0,"w":323,"h":179,"offX":0,"offY":0,"sourceW":323,"sourceH":179},
+"menu_icon_juese":{"x":0,"y":0,"w":325,"h":216,"offX":0,"offY":0,"sourceW":325,"sourceH":216},
+"menu_icon_paihangbang":{"x":0,"y":220,"w":134,"h":117,"offX":0,"offY":0,"sourceW":134,"sourceH":117},
+"menu_icon_renwu":{"x":329,"y":0,"w":316,"h":195,"offX":0,"offY":0,"sourceW":316,"sourceH":195}}}

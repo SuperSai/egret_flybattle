@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossMsgViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720" height="1280">
+		<e:Image width="720" height="1280" scale9Grid="11,9,13,20" horizontalCenter="1" verticalCenter="0" source="com.com_icon_di"/>
+		<e:Image source="worldBoss_json.worldBoss_icon_di8" scale9Grid="30,23,59,66" width="664" height="578" verticalCenter="98" horizontalCenter="0"/>
+		<e:Image source="worldBoss_json.worldBoss_di3" horizontalCenter="0" verticalCenter="-107.5"/>
+		<e:Image source="worldBoss_json.worldBoss_biaoti" top="26" horizontalCenter="0"/>
+		<e:Image source="worldBoss_json.worldBoss_di2" scale9Grid="34,28,70,41" width="630" height="58" scaleX="1" scaleY="1" horizontalCenter="0" bottom="179" alpha="0.2"/>
+		<e:Image source="worldBoss_json.worldBoss_icon_xingmingdi" y="117" scale9Grid="133,0,112,47" anchorOffsetX="0" width="404" horizontalCenter="0"/>
+		<e:Image source="worldBoss_json.worldBoss_icon_kuangdi" top="171" horizontalCenter="0"/>
+		<e:Image source="worldBoss_json.worldBoss_icon_kuang" left="0" top="152"/>
+		<e:Image source="worldBoss_json.worldBoss_icon_kuang" top="152" right="0" scaleX="-1"/>
+		<e:Image id="bossTagImg" y="143" left="6" source="worldBoss_json.worldBoss_200001"/>
+		<e:Image source="worldBoss_json.worldBoss_sh" verticalCenter="144.5" horizontalCenter="0"/>
+		<e:Image id="cardNameImg" source="worldBoss_json.worldBoss_word_1" y="512.34" left="47"/>
+		<e:Image id="curCardImg" source="worldBoss_json.worldBoss_icon_3" scaleX="0.7" scaleY="0.7" horizontalCenter="-0.5" verticalCenter="-87"/>
+		<e:Image source="worldBoss_json.worldBoss_icon_di7" anchorOffsetY="0" height="55" scale9Grid="9,10,60,22" anchorOffsetX="0" width="159.82" right="148" bottom="181" x="412.18000000000006" y="1044" scaleX="1" scaleY="1"/>
+		<e:Image source="worldBoss_json.worldBoss_jingdutiaodi5" y="671.33" right="59"/>
+		<e:Label id="txt_nextDamage" text="下阶段的奖励：11111首领伤害" fontFamily="Microsoft YaHei" bold="true" size="28" textColor="0x2e3c31" horizontalCenter="0.5" verticalCenter="-164" textAlign="center"/>
+		<e:Label text="造成的总伤害" y="191.99" fontFamily="Microsoft YaHei" bold="true" size="26" right="80" textAlign="right" textColor="0xffffff"/>
+		<e:Label text="剩余时间：" y="526.84" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554D4D" right="71"/>
+		<e:Label id="txt_bossName" text="青楼卧底" y="126" fontFamily="Microsoft YaHei" bold="true" textColor="0x2e2c31" horizontalCenter="0"/>
+		<e:Label id="txt_bossHpRatio" text="血量：60%" y="392" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554D4D" left="69" textAlign="left"/>
+		<e:Label id="txt_bossHp" text="1111/111111" y="392" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554D4D" right="80" textAlign="right"/>
+		<e:Label id="txt_cardProbability" text="4%概率获得钻石卡" y="568" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554d4d" left="46"/>
+		<e:Label id="txt_totalDamage" text="0" y="226.66" fontFamily="Microsoft YaHei" bold="true" size="26" right="80" textAlign="right" textColor="0xffb81f" stroke="2" strokeColor="0x2e2c31"/>
+		<e:Label id="txt_damageRatio" text="(100%)" y="259.97" fontFamily="Microsoft YaHei" bold="true" size="26" right="80" textAlign="right" stroke="2" strokeColor="0x2E2C31" textColor="0xffe21f"/>
+		<e:Label id="txt_lastTime" text="" y="568.17" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554D4D" horizontalCenter="216"/>
+		<ns1:ProgressBarNew id="damageBar" width="604" height="53" verticalCenter="5.5" horizontalCenter="0"/>
+		<e:Group id="cardGroup0" x="37" width="62" height="61" verticalCenter="78.5">
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodixsian" height="50" scaleX="1" scaleY="1" horizontalCenter="-7.5" top="-67"/>
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodi3" scaleX="1" scaleY="1" horizontalCenter="-7" top="-15"/>
+			<e:Image id="cardImg0" source="worldBoss_json.worldBoss_icon_1" y="0" scaleX="0.4" scaleY="0.4" x="0"/>
+			<e:Label id="txt_cardNum0" text="2" y="35" fontFamily="Microsoft YaHei" bold="true" size="24" textColor="0x554d4d" x="47"/>
+		</e:Group>
+		<e:Group id="cardGroup1" x="37" width="62" height="61" verticalCenter="78.5">
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodixsian" height="50" scaleX="1" scaleY="1" horizontalCenter="-7.5" top="-67" x="120" y="-754.69"/>
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodi3" scaleX="1" scaleY="1" horizontalCenter="-7" top="-15" x="86" y="-698.3399999999999"/>
+			<e:Image id="cardImg1" source="worldBoss_json.worldBoss_icon_1" y="0" scaleX="0.4" scaleY="0.4" x="0"/>
+			<e:Label id="txt_cardNum1" text="2" y="35" fontFamily="Microsoft YaHei" bold="true" size="24" textColor="0x554D4D" x="48"/>
+		</e:Group>
+		<e:Group id="cardGroup2" x="37" width="62" height="61" verticalCenter="78.5">
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodixsian" height="50" scaleX="1" scaleY="1" horizontalCenter="-7.5" top="-67" x="30" y="-754.69"/>
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodi3" scaleX="1" scaleY="1" horizontalCenter="-7" top="-15" x="86" y="-698.3399999999999"/>
+			<e:Image id="cardImg2" source="worldBoss_json.worldBoss_icon_1" y="0" scaleX="0.4" scaleY="0.4" x="0"/>
+			<e:Label id="txt_cardNum2" text="2" y="35" fontFamily="Microsoft YaHei" bold="true" size="24" textColor="0x554D4D" x="48"/>
+		</e:Group>
+		<e:Group id="cardGroup3" x="37" width="62" height="61" verticalCenter="78.5">
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodixsian" height="50" scaleX="1" scaleY="1" horizontalCenter="-7.5" top="-67" x="-68" y="-754.69"/>
+			<e:Image source="worldBoss_json.worldBoss_jingdutiaodi3" scaleX="1" scaleY="1" horizontalCenter="-7" top="-15" x="-102" y="-698.3399999999999"/>
+			<e:Image id="cardImg3" source="worldBoss_json.worldBoss_icon_1" y="0" scaleX="0.4" scaleY="0.4" x="0"/>
+			<e:Label id="txt_cardNum3" text="2" y="35" fontFamily="Microsoft YaHei" bold="true" size="24" textColor="0x554D4D" x="48"/>
+		</e:Group>
+		<e:Group y="686.34" right="34">
+			<e:Image id="cardImg4" source="worldBoss_json.worldBoss_icon_1" y="0" scaleX="0.4" scaleY="0.4" x="0"/>
+			<e:Label id="txt_cardNum4" text="2" y="35" fontFamily="Microsoft YaHei" bold="true" size="24" textColor="0x554D4D" x="48"/>
+		</e:Group>
+		<e:Label id="txt_time" text="" fontFamily="Microsoft YaHei" bold="true" horizontalCenter="117" textAlign="center" bottom="194" size="28" x="438" y="1058" scaleX="1" scaleY="1"/>
+		<e:Group id="btn_start" name="btn_start_1#1" touchChildren="false" horizontalCenter="0" x="248" scaleX="1" scaleY="1" bottom="75">
+			<e:Image source="com.btn_anniu3" horizontalCenter="0" verticalCenter="0"/>
+			<e:Label text="开启幻境" fontFamily="Microsoft YaHei" bold="true" textColor="0x2E2C31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_reward" name="btn_reward_1#1" touchChildren="false" horizontalCenter="0" x="248" scaleX="1" scaleY="1" bottom="75">
+			<e:Image horizontalCenter="0" verticalCenter="0" source="com.btn_anniu4"/>
+			<e:Label text="领取奖励" fontFamily="Microsoft YaHei" bold="true" textColor="0x2E2C31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_release" name="btn_release_1#1" touchChildren="false" scaleX="1" scaleY="1" bottom="71" left="-5" anchorOffsetY="0" height="97.2">
+			<e:Image scale9Grid="41,31,97,20" anchorOffsetY="0" height="104.2" anchorOffsetX="0" width="248.4" source="com.btn_anniu1"/>
+			<e:Label text="发布" fontFamily="Microsoft YaHei" bold="true" textColor="0x2E2C31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_recruiting" name="btn_recruiting_1#1" touchChildren="false" scaleX="1" scaleY="1" bottom="71" anchorOffsetY="0" height="97.2" right="0">
+			<e:Image source="com.btn_anniu1" scale9Grid="41,31,97,20" anchorOffsetY="0" height="104.2" anchorOffsetX="0" width="248.4"/>
+			<e:Label text="招募" fontFamily="Microsoft YaHei" bold="true" textColor="0x2E2C31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_add" right="56" bottom="177" name="btn_add_1#1" touchChildren="false" width="128" height="63" x="536" y="1040" scaleX="1" scaleY="1">
+			<e:Button label="" scaleX="1" scaleY="1">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="worldBoss_json.worldBoss_btn_+" source.down="worldBoss_json.worldBoss_btn_+" source.disabled="worldBoss_json.worldBoss_btn_+"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+			</e:Button>
+			<e:Image id="advImg" source="com.com_guangao" right="-32" top="-29"/>
+		</e:Group>
+		<e:Button id="btn_close" label="" bottom="0" right="0" name="btn_close_1#1" touchChildren="false" x="581" y="1209" scaleX="1" scaleY="1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com.btn_fanhui" source.down="com.btn_fanhui" source.disabled="com.btn_fanhui"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:ProgressBarNew id="bossHpBar" width="582" height="28" horizontalCenter="-5" top="361"/>
+		<e:Scroller width="642" height="200" verticalCenter="275" anchorOffsetX="0" horizontalCenter="0">
+			<e:Group>
+				<e:List id="listsItem" horizontalCenter="0" top="0">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="top"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:List id="lists" height="49" anchorOffsetY="0" left="68" bottom="182" x="68" y="1049" scaleX="1" scaleY="1">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

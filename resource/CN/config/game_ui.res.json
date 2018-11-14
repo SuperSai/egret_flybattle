@@ -1,0 +1,154 @@
+{
+	"groups": [
+		{
+			"keys": "",
+			"name": "loading"
+		},
+		{
+			"keys": "login_json",
+			"name": "login"
+		},
+		{
+			"keys": "gameOver_json",
+			"name": "gameOver"
+		},
+		{
+			"keys": "hall_json",
+			"name": "hall"
+		},
+		{
+			"keys": "systemMenu_json",
+			"name": "systemMenu"
+		},
+		{
+			"keys": "role_json",
+			"name": "role"
+		},
+		{
+			"keys": "team_json",
+			"name": "team"
+		},
+		{
+			"keys": "luckyCard_json",
+			"name": "luckyCard"
+		},
+		{
+			"keys": "worldBoss_json",
+			"name": "worldBoss"
+		},
+		{
+			"keys": "heroRank_json",
+			"name": "heroRank"
+		},
+		{
+			"keys": "number1_fnt,number1_png,number2_png,number2_fnt,number3_fnt,number3_png",
+			"name": "font"
+		},
+		{
+			"keys": "battle_json",
+			"name": "battle"
+		},
+		{
+			"keys": "magicCard_json",
+			"name": "magicCard"
+		}
+	],
+	"resources": [
+		{
+			"url": "CN/asset/atlas/login/login.json",
+			"type": "sheet",
+			"name": "login_json",
+			"subkeys": "login_icon_btn_1,login_icon_btn_1_2,login_icon_btn_2,login_icon_btn_2_2,login_icon_btn_3,login_icon_dikuang2,login_icon_dikuang3,login_icon_huo,login_icon_xin,login_name_icon,login_saizi,login_startBtn"
+		},
+		{
+			"url": "CN/asset/atlas/gameOver/gameOver.json",
+			"type": "sheet",
+			"name": "gameOver_json",
+			"subkeys": "gameOver_guang"
+		},
+		{
+			"url": "CN/asset/atlas/hall/hall.json",
+			"type": "sheet",
+			"name": "hall_json",
+			"subkeys": "hall_beijing,hall_btn_zhucaidan,hall_icon_bianhuan,hall_icon_boss,hall_icon_btn_2,hall_icon_di4,hall_icon_di6,hall_icon_gantanhao,hall_icon_huawen,hall_icon_jiantou,hall_icon_jingdutiao,hall_icon_jingdutiaodi,hall_icon_liaotian,hall_icon_libao,hall_icon_touxiangdi1,hall_icon_touxiangdi2,hall_icon_tuodongkuan,hall_icon_word_1,hall_icon_xiamiandi,hall_icon_xingmingdi,hall_jiangtou,hall_jinatoudi"
+		},
+		{
+			"url": "CN/asset/atlas/systemMenu/systemMenu.json",
+			"type": "sheet",
+			"name": "systemMenu_json",
+			"subkeys": "menu_icon_biancheng,menu_icon_juese,menu_icon_paihangbang,menu_icon_renwu,menu_icon_shangdian,menu_icon_shezi,menu_icon_youjian"
+		},
+		{
+			"url": "CN/asset/atlas/role/role.json",
+			"type": "sheet",
+			"name": "role_json",
+			"subkeys": "role_btn_1,role_btn_2,role_btn_3,role_guang,role_icon_di1,role_icon_di2,role_icon_di3,role_icon_di4,role_icon_di5,role_icon_di6,role_icon_di7,role_icon_di8,role_icon_fenjiexian,role_icon_jinbidi,role_icon_jinengdi,role_icon_jinengxhang,role_icon_toumingdi,role_icon_wold_1,role_icon_wold_2,role_icon_wold_3,role_icon_xingmingdi,role_icon_xuanzhong"
+		},
+		{
+			"url": "CN/asset/atlas/team/team.json",
+			"type": "sheet",
+			"name": "team_json",
+			"subkeys": "team_icon_+,team_icon_annoudiwen,team_icon_di1,team_icon_di2,team_icon_di3,team_icon_di4,team_icon_di5,team_icon_di6,team_icon_kuang,team_icon_kuangdi,team_icon_wlod_1,team_icon_wlod_2,team_icon_wlod_3"
+		},
+		{
+			"url": "CN/asset/atlas/luckyCard/luckyCard.json",
+			"type": "sheet",
+			"name": "luckyCard_json",
+			"subkeys": "luckyCard_icon_1,luckyCard_icon_2,luckyCard_icon_3,luckyCard_icon_4,luckyCard_icon_biaoti,luckyCard_icon_biaoti2,luckyCard_icon_di,luckyCard_icon_di2,luckyCard_icon_di3,luckyCard_icon_di6,luckyCard_icon_guangao,luckyCard_icon_touxiangbian,luckyCard_icon_touxiangdi"
+		},
+		{
+			"url": "CN/asset/atlas/worldBoss/worldBoss.json",
+			"type": "sheet",
+			"name": "worldBoss_json",
+			"subkeys": "worldBoss_200001,worldBoss_200002,worldBoss_200003,worldBoss_biaoti,worldBoss_btn_+,worldBoss_di,worldBoss_di2,worldBoss_di3,worldBoss_di4,worldBoss_icon_1,worldBoss_icon_2,worldBoss_icon_3,worldBoss_icon_4,worldBoss_icon_di7,worldBoss_icon_di8,worldBoss_icon_kuang,worldBoss_icon_kuangdi,worldBoss_icon_xingmingdi,worldBoss_jingdutiao,worldBoss_jingdutiao2,worldBoss_jingdutiao3,worldBoss_jingdutiaodi,worldBoss_jingdutiaodi2,worldBoss_jingdutiaodi3,worldBoss_jingdutiaodi5,worldBoss_jingdutiaodixsian,worldBoss_rank1,worldBoss_rank2,worldBoss_rank3,worldBoss_sh,worldBoss_tili1,worldBoss_tili2,worldBoss_word_1,worldBoss_word_2,worldBoss_word_3,worldBoss_word_4"
+		},
+		{
+			"url": "CN/asset/atlas/worldBoss/heroRank.json",
+			"type": "sheet",
+			"name": "heroRank_json",
+			"subkeys": "heroRank_biaoti,heroRank_xhangsheng,heroRank_xiajiang,heroRank_xuanzhong"
+		},
+		{
+			"url": "CN/asset/atlas/font/number1.fnt",
+			"type": "font",
+			"name": "number1_fnt"
+		},
+		{
+			"url": "CN/asset/atlas/font/number1.png",
+			"type": "image",
+			"name": "number1_png"
+		},
+		{
+			"url": "CN/asset/atlas/font/number2.png",
+			"type": "image",
+			"name": "number2_png"
+		},
+		{
+			"url": "CN/asset/atlas/font/number2.fnt",
+			"type": "font",
+			"name": "number2_fnt"
+		},
+		{
+			"url": "CN/asset/atlas/battle/battle.json",
+			"type": "sheet",
+			"name": "battle_json",
+			"subkeys": "battle_time_icon"
+		},
+		{
+			"url": "CN/asset/atlas/font/number3.fnt",
+			"type": "font",
+			"name": "number3_fnt"
+		},
+		{
+			"url": "CN/asset/atlas/font/number3.png",
+			"type": "image",
+			"name": "number3_png"
+		},
+		{
+			"url": "CN/asset/atlas/magicCard/magicCard.json",
+			"type": "sheet",
+			"name": "magicCard_json",
+			"subkeys": "magicCard_biaoti1,magicCard_btn_1,magicCard_di1,magicCard_di2,magicCard_di3,magicCard_di4,magicCard_di5,magicCard_dixz,magicCard_js,magicCard_quan,magicCard_zi1,magicCard_zi2"
+		}
+	]
+}

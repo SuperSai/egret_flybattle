@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BattleViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="720" height="1280" horizontalCenter="0" verticalCenter="0">
+		<e:Label id="txt_count" text="0" fontFamily="Microsoft YaHei" textColor="0x09F721" size="40" textAlign="right" scaleX="1" scaleY="1" right="32" top="44" bold="true" visible="false"/>
+		<e:BitmapLabel id="txt_damage" font="number2_fnt" text="0" right="13" top="28"/>
+		<e:Group id="timeGroup" left="10" top="12">
+			<e:Image source="battle_json.battle_time_icon" x="0" y="0"/>
+			<e:BitmapLabel id="txt_bossTime" x="84" y="8" font="number3_fnt" text="00.00"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

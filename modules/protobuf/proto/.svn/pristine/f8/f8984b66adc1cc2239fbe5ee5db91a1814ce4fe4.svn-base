@@ -1,0 +1,25 @@
+package protocol;
+option java_package = "com.game.protobuf";
+option java_outer_classname = "TaskProtoMsg";
+
+// 任务初始化200,任务更新201   =====>服务器推送
+message TaskUpdateMsg {
+	repeated TaskDataMsg taskDataList = 1;
+}
+
+//任务信息
+message TaskDataMsg {
+	required int32 taskId = 1;
+	required bool isComplete = 2;
+	required string process = 3;
+}
+
+// 任务进度请求 ：250 <=====客户端请求
+// 协议体：CommonMsg
+// 参数说明：intPar1:条件类型
+// 参数说明：strPar1:增加的数量
+// 参数说明：strPar2:附加参数
+
+// 任务领取奖励 ：251 <=====客户端请求
+// 协议体：CommonMsg
+// 参数说明：intPar1:任务id

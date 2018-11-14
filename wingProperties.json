@@ -1,0 +1,15 @@
+{
+    "resourcePlugin": {
+        "configs": [
+            {
+                "configPath": "resource/CN/config/default.res.json",
+                "relativePath": "resource/"
+            },
+            {
+                "configPath": "resource/config/game_animation.res.json.baiduyun.uploading.cfg",
+                "relativePath": "resource/"
+            }
+        ]
+    },
+    "theme": "resource/config/default.thm.json"
+}

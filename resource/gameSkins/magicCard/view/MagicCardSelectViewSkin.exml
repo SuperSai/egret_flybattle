@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicCardSelectViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="com.icon_tankuangdi" scale9Grid="11,11,70,68" horizontalCenter="0" verticalCenter="0" x="44" y="45" scaleX="1" scaleY="1" width="676" height="772"/>
+		<e:Image source="com.icon_tankuangwenli" horizontalCenter="0" bottom="0"/>
+		<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" width="628" height="452" horizontalCenter="0" verticalCenter="-55"/>
+		<e:Label text="选择你的奖励" fontFamily="Microsoft YaHei" size="40" bold="true" textAlign="center" name="@reward.tip" horizontalCenter="0" top="42" textColor="0x2E2C31"/>
+		<e:Group id="btn_left" name="btn_left_1#1" touchChildren="false" bottom="104" horizontalCenter="-149.5">
+			<e:Image source="com.btn_anniu1" x="0" y="0" scale9Grid="41,33,99,25" anchorOffsetX="0" width="231" anchorOffsetY="0" height="101"/>
+			<e:Label text="选择左边" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" bold="true" textColor="0x2E2C31" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group id="btn_right" name="btn_right_1#1" touchChildren="false" bottom="104" horizontalCenter="156.5">
+			<e:Image source="com.btn_anniu1" x="0" y="0" scale9Grid="41,33,99,25" anchorOffsetX="0" width="231" anchorOffsetY="0" height="101"/>
+			<e:Label text="选择右边" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" bold="true" textColor="0x2E2C31" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group id="btn_adv" name="btn_adv_1#1" touchChildren="false" horizontalCenter="0" bottom="20" width="224" height="79">
+			<e:Image x="0" source="com.btn_anniu3"/>
+			<e:Label text="全部都要" fontFamily="Microsoft YaHei" bold="true" strokeColor="0xFFFFFF" name="@ok" horizontalCenter="0" verticalCenter="0" textColor="0x2E2C31"/>
+			<e:Image source="com.com_guangao" right="-30" top="-18"/>
+		</e:Group>
+		<e:Button id="btn_close" label="" scaleY="-1" right="7" top="-1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+				<e:Image width="100%" height="100%" source="com.btn_close_bg" source.down="com.btn_close_bg" source.disabled="com.btn_close_bg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:MagicCardItem id="cardItem0" skinName="MagicCardItemSkin" verticalCenter="-50" left="20"/>
+		<ns1:MagicCardItem id="cardItem1" skinName="MagicCardItemSkin" verticalCenter="-50" right="20"/>
+	</e:Group>
+</e:Skin>

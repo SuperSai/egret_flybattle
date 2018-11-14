@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SystemMenuViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="1669b2415cc"/>
+	<e:Rect left="0" right="0" top="0" bottom="0" fillAlpha="0.8" locked="true"/>
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Button id="btn_role" label="" left="20" top="318" name="btn_role_1#1" touchChildren="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="systemMenu_json.menu_icon_juese" source.down="systemMenu_json.menu_icon_juese" source.disabled="systemMenu_json.menu_icon_juese"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_woven" label="" right="20" top="356" name="btn_woven_1#1" touchChildren="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="systemMenu_json.menu_icon_biancheng" source.down="systemMenu_json.menu_icon_biancheng" source.disabled="systemMenu_json.menu_icon_biancheng"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_task" label="" left="20" bottom="470" name="btn_task_1#1" touchChildren="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="systemMenu_json.menu_icon_renwu" source.down="systemMenu_json.menu_icon_renwu" source.disabled="systemMenu_json.menu_icon_renwu"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_shop" label="" right="20" bottom="470" name="btn_shop_1#1" touchChildren="false">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="systemMenu_json.menu_icon_shangdian" source.down="systemMenu_json.menu_icon_shangdian" source.disabled="systemMenu_json.menu_icon_shangdian"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Button id="btn_close" label="" name="btn_close_1#1" touchChildren="false" right="0" bottom="24">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com.btn_close_bg" source.down="com.btn_close_bg" source.disabled="com.btn_close_bg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group left="44" bottom="24">
+			<e:Group x="0" width="134" height="117" y="0">
+				<e:Button id="btn_rank" label="" horizontalCenter="0" verticalCenter="0" name="btn_rank_1#1" touchChildren="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="systemMenu_json.menu_icon_paihangbang" source.down="systemMenu_json.menu_icon_paihangbang" source.disabled="systemMenu_json.menu_icon_paihangbang"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group x="148" width="134" height="117" y="0">
+				<e:Button id="btn_mail" label="" horizontalCenter="0" verticalCenter="0" name="btn_mail_1#1" touchChildren="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="systemMenu_json.menu_icon_youjian" source.down="systemMenu_json.menu_icon_youjian" source.disabled="systemMenu_json.menu_icon_youjian"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:Group x="306" width="134" height="117" y="0">
+				<e:Button id="btn_set" label="" horizontalCenter="0" verticalCenter="0" name="btn_set_1#1" touchChildren="false">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="systemMenu_json.menu_icon_shezi" source.down="systemMenu_json.menu_icon_shezi" source.disabled="systemMenu_json.menu_icon_shezi"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+				</e:Button>
+			</e:Group>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom" gap="20"/>
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

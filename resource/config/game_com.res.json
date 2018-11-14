@@ -1,0 +1,59 @@
+{
+	"groups": [
+		{
+			"keys": "com",
+			"name": "preload"
+		},
+		{
+			"keys": "100_6_png,100_5_png,100_4_png,100_3_png,100_2_png,100_1_png",
+			"name": "bullets"
+		},
+		{
+			"keys": "loadingBg",
+			"name": "loading"
+		}
+	],
+	"resources": [
+		{
+			"url": "Common/bullet/100_1.png",
+			"type": "image",
+			"name": "100_1_png"
+		},
+		{
+			"url": "Common/bullet/100_2.png",
+			"type": "image",
+			"name": "100_2_png"
+		},
+		{
+			"url": "Common/bullet/100_3.png",
+			"type": "image",
+			"name": "100_3_png"
+		},
+		{
+			"url": "Common/bullet/100_4.png",
+			"type": "image",
+			"name": "100_4_png"
+		},
+		{
+			"url": "Common/bullet/100_5.png",
+			"type": "image",
+			"name": "100_5_png"
+		},
+		{
+			"url": "Common/bullet/100_6.png",
+			"type": "image",
+			"name": "100_6_png"
+		},
+		{
+			"url": "Common/atlas/com.json",
+			"type": "sheet",
+			"name": "com",
+			"subkeys": "btn_add,btn_anniu1,btn_anniu2,btn_anniu3,btn_anniu4,btn_close_bg,btn_fanhui,com_currency_bg,com_guangao,com_icon_dengji,com_icon_di,com_icon_di5,com_icon_duigoukuang,com_icon_duigoukuang2,com_icon_sh,com_item_1,com_item_2,com_item_xuanzhong,com_qua_1,com_qua_2,com_qua_3,frame_remind,hp_bar_bg,hp_green_bg,hp_red_bg,icon_beijingdi,icon_tankuangdi,icon_tankuangdi2,icon_tankuangwenli,icon_wupinkuang,iocn_tipskuang"
+		},
+		{
+			"url": "Common/atlas/loadingBg.jpg",
+			"type": "image",
+			"name": "loadingBg"
+		}
+	]
+}

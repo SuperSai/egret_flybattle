@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CrystalUseAlertSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image width="676" height="532" source="com.icon_tankuangdi" scale9Grid="19,18,56,54" horizontalCenter="0" verticalCenter="0"/>
+		<e:Image source="com.icon_tankuangwenli" horizontalCenter="0" bottom="0"/>
+		<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" width="604" height="238" horizontalCenter="0" verticalCenter="-25"/>
+		<e:Label text="选择使用的幻境水晶" fontFamily="Microsoft YaHei" size="40" bold="true" textAlign="center" name="@reward.tip" horizontalCenter="0" top="46" textColor="0x2E2C31"/>
+		<e:Label text="普通" fontFamily="Microsoft YaHei" bold="true" textAlign="center" size="28" textColor="0x554d4d" y="146" horizontalCenter="-159"/>
+		<e:Label text="史诗" fontFamily="Microsoft YaHei" bold="true" textAlign="center" size="28" textColor="0x554D4D" y="146" horizontalCenter="0"/>
+		<e:Label text="传奇" fontFamily="Microsoft YaHei" bold="true" textAlign="center" size="28" textColor="0x554D4D" y="146" horizontalCenter="158"/>
+		<e:List id="lists" verticalCenter="5" height="125" horizontalCenter="0">
+			<e:layout>
+			<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="40"/>
+			</e:layout>
+		</e:List>
+		<e:Group id="btn_sure" name="btn_sure_1#1" touchChildren="false" bottom="46" horizontalCenter="0">
+		<e:Image x="0" source="com.btn_anniu3"/>
+		<e:Label text="确定" fontFamily="Microsoft YaHei" bold="true" strokeColor="0xFFFFFF" name="@ok" horizontalCenter="0" verticalCenter="0" textColor="0x2E2C31"/>
+		</e:Group>
+		<e:Button id="btn_close" label="" scaleY="-1" right="7" top="-1">
+		<e:skinName>
+			<e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing">
+			<e:Image width="100%" height="100%" source="com.btn_close_bg" source.down="com.btn_close_bg" source.disabled="com.btn_close_bg"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+		</e:skinName>
+		</e:Button>
+	</e:Group>
+</e:Skin>

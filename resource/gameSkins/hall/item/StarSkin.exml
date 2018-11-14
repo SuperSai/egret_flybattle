@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StarSkin" xmlns:e="http://ns.egret.com/eui">
+	<e:Image left="0" top="0" source="com.com_icon_dengji"/>
+</e:Skin>

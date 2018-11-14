@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ServerViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="709" height="1155">
+		<e:Image source="login_json.login_icon_dikuang3" horizontalCenter="0" verticalCenter="-44"/>
+		<ns1:TabButton id="btn1" skinName="TabButtonSkin" content="全部" selectSource="login_json.login_icon_btn_1" unselectSource="login_json.login_icon_btn_2_2" left="25" top="203" btnType="0"/>
+		<ns1:TabButton id="btn2" skinName="TabButtonSkin" content="我的" selectSource="login_json.login_icon_btn_1_2" unselectSource="login_json.login_icon_btn_2" left="221" top="203" btnType="1"/>
+		<e:Label id="serverNameLabel" text="上次登陆：" anchorOffsetX="0" anchorOffsetY="0" textColor="0x503637" size="26" strokeColor="0xFFFFFF" stroke="2" bold="true" y="891" name="@models.ServerView.label2" left="68"/>
+		<e:Label id="serverNameLabel0" text="强烈推荐：" anchorOffsetX="0" anchorOffsetY="0" textColor="0x503637" size="26" strokeColor="0xFFFFFF" stroke="2" bold="true" y="891" name="@models.ServerView.label3" right="180"/>
+		<e:Scroller id="scroller" width="620" height="553" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="-5.5" bottom="324">
+			<e:Group anchorOffsetX="0" width="212" anchorOffsetY="0" height="526">
+			<e:List id="list">
+				<e:layout>
+				<e:TileLayout horizontalGap="10" verticalGap="10" requestedColumnCount="2" paddingLeft="5"/>
+				</e:layout>
+			</e:List>
+			</e:Group>
+		</e:Scroller>
+		<ns1:ServerItem id="item1" skinName="ServerItemSkin" left="48" bottom="148"/>
+		<ns1:ServerItem id="item2" skinName="ServerItemSkin" right="38" bottom="148"/>
+		<e:Group id="okBtn" name="okBtn_1#2" touchChildren="false" horizontalCenter="0" bottom="0" visible="false">
+			<e:Image x="0" y="0" source="com.btn_anniu1"/>
+			<e:Label text="确定" textAlign="center" bold="true" textColor="0x503637" horizontalCenter="0.5" verticalCenter="-3" name="@ok" strokeColor="0xFFFFFF" stroke="2"/>
+		</e:Group>
+		<e:Group id="cancelBtn" name="cancelBtn_1#2" touchChildren="false" horizontalCenter="0" bottom="0">
+			<e:Image x="0" y="0" source="com.btn_anniu1"/>
+			<e:Label text="返回" textAlign="center" bold="true" textColor="0x503637" name="@back" strokeColor="0xFFFFFF" stroke="2" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

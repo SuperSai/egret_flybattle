@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="InputViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Group id="nickNameGroup" y="0" anchorOffsetX="0" width="562" anchorOffsetY="0" height="94" x="0">
+			<e:Image source="login_json.login_name_icon" scale9Grid="81,43,19,13" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+			<e:EditableText id="txt_input" anchorOffsetX="0" anchorOffsetY="0" textAlign="center" border="false" bold="true" touchEnabled="true" prompt="请输入角色名" promptColor="0x000000" textColor="0x000000" size="40" verticalAlign="middle" width="473" top="0" bottom="0" left="0"/>
+		</e:Group>
+		<e:Button id="btn_random" label="" y="3.84" name="btn_random_1#1" touchChildren="false" x="471">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="login_json.login_saizi" source.down="login_json.login_saizi" source.disabled="login_json.login_startBtn"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="serverGroup" anchorOffsetX="0" width="562" anchorOffsetY="0" height="94" horizontalCenter="0" top="0">
+			<e:Image source="login_json.login_name_icon" scale9Grid="81,43,19,13" anchorOffsetX="0" anchorOffsetY="0" left="0" right="0" top="0" bottom="0"/>
+			<e:Group x="0" y="10" width="74">
+			<e:Image source="login_json.login_icon_dikuang2" y="0" x="0"/>
+			<e:Label id="serverIdLabel" text="1" anchorOffsetX="0" width="50" verticalAlign="middle" textAlign="center" anchorOffsetY="0" height="60" textColor="0xFFFFFF" strokeColor="0x996469" stroke="2" bold="true" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image id="stateIcon" source="login_json.login_icon_xin" verticalCenter="0" horizontalCenter="0"/>
+			</e:Group>
+			<e:Label id="serverNameLabel" text="服务器名字" anchorOffsetX="0" verticalAlign="middle" anchorOffsetY="0" horizontalCenter="-115" verticalCenter="0" size="32" textColor="0xd87102" bold="true"/>
+			<e:Label text="点击选服" anchorOffsetX="0" verticalAlign="middle" textAlign="center" anchorOffsetY="0" horizontalCenter="183.5" verticalCenter="0" size="32" textColor="0xf2bd1b" bold="true" name="@models.ServerView.label1"/>
+		</e:Group>
+		<e:Group id="btn_enter" name="btn_enter_1#1" touchChildren="false" horizontalCenter="0" bottom="0">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="login_json.login_startBtn"/>
+		</e:Group>
+		<e:Group id="okBtn" y="140" name="okBtn_1#3" touchChildren="false" x="142">
+			<e:Image x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" width="279" height="103" source="login_json.login_startBtn"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

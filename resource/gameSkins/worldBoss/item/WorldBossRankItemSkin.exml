@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="WorldBossRankItemSkin" width="642" height="100" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="worldBoss_json.worldBoss_di4" scale9Grid="11,9,66,60" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="rankImg" source="worldBoss_json.worldBoss_rank1" left="17" verticalCenter="0.5"/>
+	<e:Label id="txt_totalDamage" text="总伤害(%)：100%" fontFamily="Microsoft YaHei" bold="true" textColor="0x554d4d" size="26" left="217" verticalCenter="-20"/>
+	<e:Label id="txt_topDamage" text="单次最高伤害：0" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" size="26" verticalCenter="21" left="217"/>
+	<e:Label id="txt_rank" text="4" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" size="56" left="32" verticalCenter="0"/>
+	<e:Image source="hall_json.hall_icon_touxiangdi2" scaleX="0.8" scaleY="0.8" verticalCenter="1" left="108"/>
+	<e:Image id="headImg" scaleX="0.8" scaleY="0.8" verticalCenter="1" left="108" width="103" height="102" source=""/>
+	<e:Image id="maskImg" source="hall_json.hall_icon_touxiangdi2" scaleX="0.8" scaleY="0.8" verticalCenter="1" left="108"/>
+	<e:Image source="hall_json.hall_icon_di4" left="101" verticalCenter="0"/>
+</e:Skin>

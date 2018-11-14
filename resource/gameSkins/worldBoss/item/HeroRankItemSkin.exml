@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroRankItemSkin" width="574" height="122" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group width="574" height="122" horizontalCenter="0" verticalCenter="0">
+		<e:Image id="bg1" source="worldBoss_json.worldBoss_di4" scale9Grid="11,9,66,60" width="574" height="122" horizontalCenter="0" verticalCenter="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="bg2" source="heroRank_json.heroRank_xuanzhong" scale9Grid="61,54,69,21" anchorOffsetX="0" verticalCenter="0" width="584" horizontalCenter="0"/>
+		<e:Image source="hall_json.hall_icon_touxiangdi2" scaleX="0.8" scaleY="0.8" verticalCenter="1" left="79" x="79" y="21"/>
+		<e:Image id="headImg" scaleX="0.8" scaleY="0.8" verticalCenter="1" left="79" width="103" height="102" source="" x="79" y="21"/>
+		<e:Image id="maskImg" source="hall_json.hall_icon_touxiangdi2" scaleX="0.8" scaleY="0.8" verticalCenter="1" left="79" x="79" y="21"/>
+		<e:Image source="hall_json.hall_icon_di4" left="72" verticalCenter="0" x="72" y="13" scaleX="1" scaleY="1"/>
+		<e:Image id="arrowImg" source="heroRank_json.heroRank_xhangsheng" left="-66" verticalCenter="0.5"/>
+		<e:Label id="txt_rank" text="4" fontFamily="Microsoft YaHei" bold="true" size="36" left="29" verticalCenter="0" textColor="0x2e2c31"/>
+		<e:Label id="txt_name" text="名字" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" size="26" left="188" verticalCenter="-20" x="188" y="28" scaleX="1" scaleY="1"/>
+		<e:Label id="txt_topDamage" text="单次最高伤害：0" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" size="26" verticalCenter="21" left="188" x="188" y="69" scaleX="1" scaleY="1"/>
+		<e:BitmapLabel id="txt_fontRank" font="number1_fnt" verticalCenter="0" text="1" horizontalCenter="-248"/>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="GameOverViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0" width="720" height="1120">
+		<e:Image source="gameOver_json.gameOver_guang" top="-123" horizontalCenter="0"/>
+		<e:Image id="playerImg2" source="" height="660" scaleX="0.58" scaleY="0.58" left="17" top="92"/>
+		<e:Image id="playerImg3" source="" height="660" scaleX="0.58" scaleY="0.58" top="92" right="17"/>
+		<e:Image id="playerImg1" height="660" source="" scaleX="0.72" scaleY="0.72" horizontalCenter="0" top="0"/>
+		<e:Group id="btn_sure" y="1040.13" name="btn_sure_1#1" touchChildren="false" left="90">
+			<e:Image x="0" source="com.btn_anniu4"/>
+			<e:Label text="好的" fontFamily="Microsoft YaHei" bold="true" strokeColor="0xffffff" textColor="0x2e2c31" verticalCenter="0" horizontalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_share" y="1040.13" name="btn_share_1#1" touchChildren="false" right="90">
+			<e:Image x="0" source="com.btn_anniu3"/>
+			<e:Label text="分享" fontFamily="Microsoft YaHei" bold="true" strokeColor="0xFFFFFF" textColor="0x2e2c31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group y="471" horizontalCenter="0">
+			<e:Image source="com.icon_tankuangdi" scale9Grid="11,11,70,68" width="700" height="528" y="0" x="0"/>
+			<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" width="632" height="60" horizontalCenter="0" top="42"/>
+			<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" width="632" height="190" horizontalCenter="0" top="128"/>
+			<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" width="632" height="60" horizontalCenter="0" top="344"/>
+			<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" width="632" height="60" horizontalCenter="0" top="418"/>
+			<e:Image source="com.com_item_1" y="360" right="79"/>
+			<e:Image source="com.com_item_1" right="79" top="57"/>
+			<e:Image source="com.com_item_1" y="433" right="79"/>
+			<e:Label text="奖杯" y="51" fontFamily="Microsoft YaHei" bold="true" size="40" textColor="0x2e2c31" left="54"/>
+			<e:Label text="金币" y="353" fontFamily="Microsoft YaHei" bold="true" size="40" textColor="0x2E2C31" left="54"/>
+			<e:Label text="分数" y="427" fontFamily="Microsoft YaHei" bold="true" size="40" textColor="0x2E2C31" left="54"/>
+			<e:Label id="txt_trophy" text="0" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x539F73" right="126" top="59"/>
+			<e:Label id="txt_gold" text="0" fontFamily="Microsoft YaHei" bold="true" size="32" right="126" bottom="139" textColor="0xb4830f"/>
+			<e:Label id="txt_score" text="0" fontFamily="Microsoft YaHei" bold="true" size="32" textColor="0xB4830F" right="126" bottom="66"/>
+			<e:Group y="144" left="54">
+				<e:Label text="BOSS奖励" y="0" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554d4d" x="0"/>
+				<e:Label text="超越好友高分" y="42" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554D4D" x="0"/>
+				<e:Label text="排行第一" y="82" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554D4D" x="0"/>
+				<e:Label text="新群组奖励" y="123" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x554D4D" x="0"/>
+				<e:layout>
+					<e:VerticalLayout horizontalAlign="left" verticalAlign="middle" gap="18"/>
+				</e:layout>
+			</e:Group>
+			<e:Group y="144" right="126">
+				<e:Label id="txt_count0" text="0" y="0" fontFamily="Microsoft YaHei" bold="true" size="26" x="0" textColor="0x539f73"/>
+				<e:Label id="txt_count1" text="0" y="42" fontFamily="Microsoft YaHei" bold="true" size="26" x="0" textColor="0x539f73"/>
+				<e:Label id="txt_count2" text="0" y="82" fontFamily="Microsoft YaHei" bold="true" size="26" x="0" textColor="0x539f73"/>
+				<e:Label id="txt_count3" text="0" y="123" fontFamily="Microsoft YaHei" bold="true" size="26" x="0" textColor="0x539f73"/>
+				<e:layout>
+				<e:VerticalLayout horizontalAlign="right" verticalAlign="middle" gap="18"/>
+				</e:layout>
+			</e:Group>
+		</e:Group>
+	</e:Group>
+</e:Skin>

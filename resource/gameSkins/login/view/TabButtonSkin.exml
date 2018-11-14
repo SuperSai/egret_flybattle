@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TabButtonSkin" xmlns:e="http://ns.egret.com/eui" width="180" height="84">
+	<e:Image id="selectImg" source="login_json.login_icon_btn_1" horizontalCenter="0" verticalCenter="0" x="0" y="0"/>
+	<e:Image id="unselectImg" source="login_json.login_icon_btn_2" horizontalCenter="0" verticalCenter="0" x="0" y="0"/>
+	<e:Label id="contentLabel" text="名字" textAlign="center" bold="true" textColor="0x503637" name="@back" strokeColor="0xFFFFFF" stroke="2" horizontalCenter="0" top="22" x="59" y="22"/>
+</e:Skin>

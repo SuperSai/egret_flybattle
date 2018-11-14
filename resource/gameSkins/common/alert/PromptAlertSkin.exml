@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="PromptAlertSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image width="680" height="532" source="com.icon_tankuangdi" scale9Grid="17,12,57,66" horizontalCenter="0" verticalCenter="0" locked="true"/>
+		<e:Label id="txt_title" text="警告" fontFamily="Microsoft YaHei" size="40" bold="true" textAlign="center" horizontalCenter="0" top="42" textColor="0x2e2c31"/>
+		<e:Group top="108" horizontalCenter="0">
+			<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" width="606" height="234" x="0" y="0"/>
+			<e:Label id="txt_des" text="您出售的角色包含SR或者SSR以上品质，您确定吗？" fontFamily="Microsoft YaHei" bold="true" textAlign="left" verticalAlign="top" anchorOffsetX="0" width="538" anchorOffsetY="0" height="190" size="28" top="32" horizontalCenter="0" textColor="0x554d4d"/>
+		</e:Group>
+		<e:Group id="btn_cancel" name="btn_cancel_1#1" touchChildren="false" bottom="36" left="80">
+			<e:Image x="0" source="com.btn_anniu4"/>
+			<e:Label text="取消" fontFamily="Microsoft YaHei" bold="true" strokeColor="0xFFFFFF" name="@cancel" textColor="0x2e2c31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group id="btn_sure" name="btn_sure_1#1" touchChildren="false" bottom="36" right="80">
+			<e:Image x="0" source="com.btn_anniu3"/>
+			<e:Label text="确定" fontFamily="Microsoft YaHei" bold="true" strokeColor="0xFFFFFF" name="@ok" textColor="0x2e2c31" horizontalCenter="0" verticalCenter="0"/>
+		</e:Group>
+		<e:Group left="37" bottom="148">
+			<e:CheckBox id="btn_isTip" label="" x="0" y="0">
+				<e:skinName>
+					<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com.com_icon_duigoukuang" source.down="com.com_icon_duigoukuang2" source.disabled="com.com_icon_duigoukuang"/>
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+					</e:Skin>
+				</e:skinName>
+			</e:CheckBox>
+			<e:Label text="本次登陆不再提示" x="41" y="2" fontFamily="Microsoft YaHei" bold="true" size="28" textColor="0x554d4d"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

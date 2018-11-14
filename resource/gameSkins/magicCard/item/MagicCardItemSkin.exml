@@ -1,0 +1,13 @@
+
+<e:Skin class="MagicCardItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="magicCard_json.magicCard_di3" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image id="heroImg" horizontalCenter="0" verticalCenter="0" scaleX="0.5" scaleY="0.5"/>
+	<e:Image source="magicCard_json.magicCard_quan" right="40" bottom="88" alpha="0.6"/>
+	<e:Image id="quaImg" source="com.com_qua_3" y="311.4" scaleX="0.6" scaleY="0.6" horizontalCenter="90.5"/>
+	<e:Image id="lightImg" source="magicCard_json.magicCard_dixz" horizontalCenter="0" verticalCenter="0" visible="false"/>
+	<e:Group horizontalCenter="0.5" bottom="40" touchChildren="false" touchEnabled="false" touchThrough="false">
+		<e:Image source="magicCard_json.magicCard_di4" scale9Grid="25,14,27,16" anchorOffsetX="0" width="240.6" x="0" y="0"/>
+		<e:Label id="txt_name" text="名字" textAlign="center" fontFamily="Microsoft YaHei" bold="true" size="24" x="96" y="12"/>
+	</e:Group>
+	<e:Rect id="rect" alpha="0.2" width="259" height="385" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" verticalCenter="0" locked="true"/>
+</e:Skin>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MagicCardMainViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="720" height="1280">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="com.com_icon_di" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" />
+		<e:Image source="magicCard_json.magicCard_di2" horizontalCenter="0" verticalCenter="58.5" />
+		<e:Image source="magicCard_json.magicCard_biaoti1" horizontalCenter="0.5" top="33" />
+		<e:Image source="magicCard_json.magicCard_di1" scale9Grid="63,34,41,26" width="518" height="90" horizontalCenter="0"
+		         top="148" />
+		<e:Image source="com.icon_wupinkuang" y="946" left="14" />
+		<e:Label text="本次有可能获得：" fontFamily="Microsoft YaHei" bold="true" textAlign="center" textColor="0x554d4d"
+		         horizontalCenter="0" top="174" />
+		<e:Label text="当前：" y="906" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x2e2c31" left="22" />
+		<e:Group id="btn_reward" name="btn_reward_1#1" touchChildren="false" bottom="132" left="10" x="10" y="1069" scaleX="1"
+		         scaleY="1">
+			<e:Image source="com.btn_anniu3" anchorOffsetX="0" width="190" y="0" x="0" />
+			<e:Label text="直接领取" fontFamily="Microsoft YaHei" bold="true" textColor="0x2E2C31" horizontalCenter="0"
+			         verticalCenter="0" />
+		</e:Group>
+		<e:Group id="advGroup" y="861" right="-41">
+			<e:Image source="magicCard_json.magicCard_js" x="133" y="0" />
+			<e:Group y="93" x="0">
+				<e:Image source="magicCard_json.magicCard_di5" x="0" y="0" />
+				<e:Label text="观看短视频可以重新抽取一次,然后从两个奖励中选择一样噢！" fontFamily="Microsoft YaHei" bold="true" textAlign="center"
+				         verticalAlign="middle" size="22" textColor="0xccfafc" anchorOffsetX="0" width="217"
+				         horizontalCenter="-10.5" verticalCenter="0" lineSpacing="10" />
+			</e:Group>
+		</e:Group>
+		<e:Group id="btn_lottery" horizontalCenter="0" bottom="30" name="btn_lottery_1#1" touchChildren="false">
+			<e:Image source="magicCard_json.magicCard_btn_1" horizontalCenter="0" verticalCenter="0" />
+			<e:Image id="txtImg" source="magicCard_json.magicCard_zi2" verticalCenter="23" horizontalCenter="3" />
+			<e:Image id="advImg" source="com.com_guangao" right="48" top="78" />
+		</e:Group>
+		<e:Button id="btn_close" label="" name="btn_close_1#1" touchChildren="false" bottom="18" right="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+					<e:Image width="100%" height="100%" source="com.btn_fanhui" source.down="com.btn_fanhui"
+					         source.disabled="com.btn_fanhui" />
+					<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<ns1:MagicCardItem id="cardHaveItem" y="87.83" skinName="MagicCardItemSkin" scaleX="0.6" scaleY="0.6" right="0"/>
+		<ns1:MagicCardItem id="cardItem0" skinName="MagicCardItemSkin" horizontalCenter="-238" verticalCenter="14" scaleX="0.6" scaleY="0.6" cardIndex="0"/>
+		<ns1:MagicCardItem id="cardItem4" skinName="MagicCardItemSkin" horizontalCenter="237" verticalCenter="14" scaleX="0.6" scaleY="0.6" cardIndex="4"/>
+		<ns1:MagicCardItem id="cardItem1" skinName="MagicCardItemSkin" horizontalCenter="-148" verticalCenter="14.5" scaleX="0.8" scaleY="0.8" cardIndex="1"/>
+		<ns1:MagicCardItem id="cardItem3" skinName="MagicCardItemSkin" horizontalCenter="148" verticalCenter="14.5" scaleX="0.8" scaleY="0.8" cardIndex="3"/>
+		<ns1:MagicCardItem id="cardItem2" skinName="MagicCardItemSkin" horizontalCenter="0" verticalCenter="14" cardIndex="2"/>
+	</e:Group>
+</e:Skin>

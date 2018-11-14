@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleRiseStarViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="com.icon_tankuangdi" scale9Grid="21,18,52,53" horizontalCenter="0" verticalCenter="0" height="1000" width="680"/>
+		<e:Image source="com.icon_tankuangwenli" scaleY="-1" horizontalCenter="0" top="0" touchEnabled="false"/>
+		<e:Image source="role_json.role_guang" top="109" scaleX="0.8" scaleY="0.8" horizontalCenter="0" touchEnabled="false"/>
+		<e:Label text="角色升星" fontFamily="Microsoft YaHei" bold="true" size="40" textColor="0x2e2c31" horizontalCenter="0" top="32"/>
+		<e:Button id="btn_close" label="" scaleY="-1" name="btn_close_1#1" touchChildren="false" right="6" top="-1">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com.btn_close_bg" source.down="com.btn_close_bg" source.disabled="com.btn_close_bg"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image source="com.icon_tankuangdi2" scale9Grid="10,10,66,64" height="742" width="612" x="0" y="0"/>
+			<e:Image source="role_json.role_icon_xingmingdi" horizontalCenter="0" top="17"/>
+			<e:Label id="txt_roleName" text="名字" horizontalCenter="0" top="25" fontFamily="Microsoft YaHei" bold="true" textAlign="center" textColor="0x2e2c31"/>
+			<e:Image id="roleImg" top="53" scaleX="0.6" scaleY="0.6" horizontalCenter="0"/>
+			<ns1:Role id="role" skinName="RoleSkin" horizontalCenter="0" bottom="0"/>
+			<e:Label text="需要：" y="503.04" fontFamily="Microsoft YaHei" bold="true" textColor="0x2e2c31" left="30"/>
+			<e:Group horizontalCenter="0" verticalCenter="0">
+				<e:Image source="role_json.role_icon_di6" scale9Grid="25,18,63,54" width="556" height="226" x="0" y="0"/>
+				<e:Image source="role_json.role_icon_di7" scale9Grid="9,7,60,28" width="438" horizontalCenter="0" top="16"/>
+				<e:Image source="role_json.role_icon_di7" scale9Grid="9,7,60,28" width="438" horizontalCenter="0" top="68"/>
+				<e:Label id="txt_level" text="Lv.0" top="23" fontFamily="Microsoft YaHei" bold="true" textColor="0x554d4d" left="70"/>
+				<e:Group top="75" horizontalCenter="0">
+					<e:Label id="txt_attack" text="999" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" x="0" y="0"/>
+					<e:Label id="txt_addAttack" text="+999" fontFamily="Microsoft YaHei" bold="true" x="61" y="0" textColor="0x459768"/>
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="0"/>
+					</e:layout>
+				</e:Group>
+				<e:Image top="74" left="72" source="com.com_icon_sh"/>
+				<e:List id="listStar" height="53" top="19" scaleX="0.7" scaleY="0.7" horizontalCenter="-64.5">
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+					</e:layout>
+				</e:List>
+				<e:List id="listSkill" height="108" bottom="6" horizontalCenter="0">
+					<e:layout>
+						<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle" gap="20"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Group>
+		<e:Group id="btn_riseStar" horizontalCenter="0" bottom="14" name="btn_riseStar_1#1" touchChildren="false">
+			<e:Image source="com.btn_anniu1" scale9Grid="34,29,111,31" anchorOffsetX="0" width="248" anchorOffsetY="0" height="106" x="0" y="0"/>
+			<e:Label text="升星" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x2e2c31"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

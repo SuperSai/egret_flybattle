@@ -1,0 +1,485 @@
+{
+	"groups": [
+		{
+			"keys": "bao_01_tex_png,bao_01_ske_json,bao_01_tex_json",
+			"name": "bao_01"
+		},
+		{
+			"keys": "monster_02_tex_png,monster_02_ske_json,monster_02_tex_json",
+			"name": "monster_02"
+		},
+		{
+			"keys": "monster_03_tex_png,monster_03_tex_json,monster_03_ske_json",
+			"name": "monster_03"
+		},
+		{
+			"keys": "monster_04_tex_png,monster_04_ske_json,monster_04_tex_json",
+			"name": "monster_04"
+		},
+		{
+			"keys": "monster_05_tex_png,monster_05_tex_json,monster_05_ske_json",
+			"name": "monster_05"
+		},
+		{
+			"keys": "role_01_tex_png,role_01_tex_json,role_01_ske_json",
+			"name": "role_01"
+		},
+		{
+			"keys": "wing_01_tex_png,wing_01_tex_json,wing_01_ske_json",
+			"name": "wing_01"
+		},
+		{
+			"keys": "wing_02_tex_png,wing_02_ske_json,wing_02_tex_json",
+			"name": "wing_02"
+		},
+		{
+			"keys": "",
+			"name": "testAnimation"
+		},
+		{
+			"keys": "monster_01_tex_png,monster_01_tex_json,monster_01_ske_json",
+			"name": "monster_01"
+		},
+		{
+			"keys": "boss_01_tex_png,boss_01_ske_json,boss_01_tex_json",
+			"name": "boss_01"
+		},
+		{
+			"keys": "ui_tishi_tex_png,ui_tishi_ske_json,ui_tishi_tex_json",
+			"name": "ui_tishi"
+		},
+		{
+			"keys": "hit_01_tex_png,hit_01_ske_json,hit_01_tex_json",
+			"name": "hit_01"
+		},
+		{
+			"keys": "ui_danger_tex_png,ui_danger_tex_json,ui_danger_ske_json",
+			"name": "ui_danger"
+		},
+		{
+			"keys": "ui_jingbi_tex_png,ui_jingbi_ske_json,ui_jingbi_tex_json",
+			"name": "ui_jingbi"
+		},
+		{
+			"keys": "ui_zhuanshi_01_tex_png,ui_zhuanshi_01_tex_json,ui_zhuanshi_01_ske_json",
+			"name": "ui_zhuanshi_01"
+		},
+		{
+			"keys": "ui_zhuanshi_02_tex_png,ui_zhuanshi_02_tex_json,ui_zhuanshi_02_ske_json",
+			"name": "ui_zhuanshi_02"
+		},
+		{
+			"keys": "ui_zhuanshi_03_tex_png,ui_zhuanshi_03_tex_json,ui_zhuanshi_03_ske_json",
+			"name": "ui_zhuanshi_03"
+		},
+		{
+			"keys": "buff_01_tex_png,buff_01_ske_json,buff_01_tex_json",
+			"name": "buff_01"
+		},
+		{
+			"keys": "buff_02_tex_png,buff_02_ske_json,buff_02_tex_json",
+			"name": "buff_02"
+		},
+		{
+			"keys": "buff_03_tex_png,buff_03_ske_json,buff_03_tex_json",
+			"name": "buff_03"
+		},
+		{
+			"keys": "buff_04_tex_png,buff_04_ske_json,buff_04_tex_json",
+			"name": "buff_04"
+		},
+		{
+			"keys": "buff_05_tex_png,buff_05_ske_json,buff_05_tex_json",
+			"name": "buff_05"
+		},
+		{
+			"keys": "buff_06_tex_png,buff_06_ske_json,buff_06_tex_json",
+			"name": "buff_06"
+		},
+		{
+			"keys": "buff_07_tex_png,buff_07_ske_json,buff_07_tex_json",
+			"name": "buff_07"
+		},
+		{
+			"keys": "ui_citie_tex_png,ui_citie_tex_json,ui_citie_ske_json",
+			"name": "ui_citie"
+		}
+	],
+	"resources": [
+		{
+			"url": "Common/animation/roles/role_01/role_01_tex.png",
+			"type": "image",
+			"name": "role_01_tex_png"
+		},
+		{
+			"url": "Common/animation/roles/role_01/role_01_tex.json",
+			"type": "json",
+			"name": "role_01_tex_json"
+		},
+		{
+			"url": "Common/animation/roles/role_01/role_01_ske.json",
+			"type": "json",
+			"name": "role_01_ske_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_02/monster_02_tex.png",
+			"type": "image",
+			"name": "monster_02_tex_png"
+		},
+		{
+			"url": "Common/animation/monster/monster_02/monster_02_ske.json",
+			"type": "json",
+			"name": "monster_02_ske_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_02/monster_02_tex.json",
+			"type": "json",
+			"name": "monster_02_tex_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_03/monster_03_tex.png",
+			"type": "image",
+			"name": "monster_03_tex_png"
+		},
+		{
+			"url": "Common/animation/monster/monster_03/monster_03_tex.json",
+			"type": "json",
+			"name": "monster_03_tex_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_03/monster_03_ske.json",
+			"type": "json",
+			"name": "monster_03_ske_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_04/monster_04_tex.png",
+			"type": "image",
+			"name": "monster_04_tex_png"
+		},
+		{
+			"url": "Common/animation/monster/monster_04/monster_04_ske.json",
+			"type": "json",
+			"name": "monster_04_ske_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_04/monster_04_tex.json",
+			"type": "json",
+			"name": "monster_04_tex_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_05/monster_05_tex.png",
+			"type": "image",
+			"name": "monster_05_tex_png"
+		},
+		{
+			"url": "Common/animation/monster/monster_05/monster_05_tex.json",
+			"type": "json",
+			"name": "monster_05_tex_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_05/monster_05_ske.json",
+			"type": "json",
+			"name": "monster_05_ske_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_01/monster_01_tex.png",
+			"type": "image",
+			"name": "monster_01_tex_png"
+		},
+		{
+			"url": "Common/animation/monster/monster_01/monster_01_tex.json",
+			"type": "json",
+			"name": "monster_01_tex_json"
+		},
+		{
+			"url": "Common/animation/monster/monster_01/monster_01_ske.json",
+			"type": "json",
+			"name": "monster_01_ske_json"
+		},
+		{
+			"url": "Common/animation/monster/boss_01/boss_01_tex.png",
+			"type": "image",
+			"name": "boss_01_tex_png"
+		},
+		{
+			"url": "Common/animation/monster/boss_01/boss_01_ske.json",
+			"type": "json",
+			"name": "boss_01_ske_json"
+		},
+		{
+			"url": "Common/animation/monster/boss_01/boss_01_tex.json",
+			"type": "json",
+			"name": "boss_01_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_jingbi/ui_jingbi_tex.png",
+			"type": "image",
+			"name": "ui_jingbi_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/ui_jingbi/ui_jingbi_ske.json",
+			"type": "json",
+			"name": "ui_jingbi_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_jingbi/ui_jingbi_tex.json",
+			"type": "json",
+			"name": "ui_jingbi_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_01/ui_zhuanshi_01_tex.png",
+			"type": "image",
+			"name": "ui_zhuanshi_01_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_01/ui_zhuanshi_01_tex.json",
+			"type": "json",
+			"name": "ui_zhuanshi_01_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_01/ui_zhuanshi_01_ske.json",
+			"type": "json",
+			"name": "ui_zhuanshi_01_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_02/ui_zhuanshi_02_tex.png",
+			"type": "image",
+			"name": "ui_zhuanshi_02_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_02/ui_zhuanshi_02_tex.json",
+			"type": "json",
+			"name": "ui_zhuanshi_02_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_02/ui_zhuanshi_02_ske.json",
+			"type": "json",
+			"name": "ui_zhuanshi_02_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_03/ui_zhuanshi_03_tex.png",
+			"type": "image",
+			"name": "ui_zhuanshi_03_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_03/ui_zhuanshi_03_tex.json",
+			"type": "json",
+			"name": "ui_zhuanshi_03_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_zhuanshi_03/ui_zhuanshi_03_ske.json",
+			"type": "json",
+			"name": "ui_zhuanshi_03_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_01/buff_01_tex.png",
+			"type": "image",
+			"name": "buff_01_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/buff_01/buff_01_ske.json",
+			"type": "json",
+			"name": "buff_01_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_01/buff_01_tex.json",
+			"type": "json",
+			"name": "buff_01_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_02/buff_02_tex.png",
+			"type": "image",
+			"name": "buff_02_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/buff_02/buff_02_ske.json",
+			"type": "json",
+			"name": "buff_02_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_02/buff_02_tex.json",
+			"type": "json",
+			"name": "buff_02_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_03/buff_03_tex.png",
+			"type": "image",
+			"name": "buff_03_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/buff_03/buff_03_ske.json",
+			"type": "json",
+			"name": "buff_03_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_03/buff_03_tex.json",
+			"type": "json",
+			"name": "buff_03_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_04/buff_04_tex.png",
+			"type": "image",
+			"name": "buff_04_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/buff_04/buff_04_ske.json",
+			"type": "json",
+			"name": "buff_04_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_04/buff_04_tex.json",
+			"type": "json",
+			"name": "buff_04_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_05/buff_05_tex.png",
+			"type": "image",
+			"name": "buff_05_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/buff_05/buff_05_ske.json",
+			"type": "json",
+			"name": "buff_05_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_05/buff_05_tex.json",
+			"type": "json",
+			"name": "buff_05_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_06/buff_06_tex.png",
+			"type": "image",
+			"name": "buff_06_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/buff_06/buff_06_ske.json",
+			"type": "json",
+			"name": "buff_06_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_06/buff_06_tex.json",
+			"type": "json",
+			"name": "buff_06_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_07/buff_07_tex.png",
+			"type": "image",
+			"name": "buff_07_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/buff_07/buff_07_ske.json",
+			"type": "json",
+			"name": "buff_07_ske_json"
+		},
+		{
+			"url": "Common/animation/icon/buff_07/buff_07_tex.json",
+			"type": "json",
+			"name": "buff_07_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_citie/ui_citie_tex.png",
+			"type": "image",
+			"name": "ui_citie_tex_png"
+		},
+		{
+			"url": "Common/animation/icon/ui_citie/ui_citie_tex.json",
+			"type": "json",
+			"name": "ui_citie_tex_json"
+		},
+		{
+			"url": "Common/animation/icon/ui_citie/ui_citie_ske.json",
+			"type": "json",
+			"name": "ui_citie_ske_json"
+		},
+		{
+			"url": "Common/animation/wing/wing_01/wing_01_tex.png",
+			"type": "image",
+			"name": "wing_01_tex_png"
+		},
+		{
+			"url": "Common/animation/wing/wing_01/wing_01_tex.json",
+			"type": "json",
+			"name": "wing_01_tex_json"
+		},
+		{
+			"url": "Common/animation/wing/wing_01/wing_01_ske.json",
+			"type": "json",
+			"name": "wing_01_ske_json"
+		},
+		{
+			"url": "Common/animation/wing/wing_02/wing_02_tex.png",
+			"type": "image",
+			"name": "wing_02_tex_png"
+		},
+		{
+			"url": "Common/animation/wing/wing_02/wing_02_ske.json",
+			"type": "json",
+			"name": "wing_02_ske_json"
+		},
+		{
+			"url": "Common/animation/wing/wing_02/wing_02_tex.json",
+			"type": "json",
+			"name": "wing_02_tex_json"
+		},
+		{
+			"url": "Common/animation/common/bao_01/bao_01_tex.png",
+			"type": "image",
+			"name": "bao_01_tex_png"
+		},
+		{
+			"url": "Common/animation/common/bao_01/bao_01_ske.json",
+			"type": "json",
+			"name": "bao_01_ske_json"
+		},
+		{
+			"url": "Common/animation/common/bao_01/bao_01_tex.json",
+			"type": "json",
+			"name": "bao_01_tex_json"
+		},
+		{
+			"url": "Common/animation/common/hit_01/hit_01_tex.png",
+			"type": "image",
+			"name": "hit_01_tex_png"
+		},
+		{
+			"url": "Common/animation/common/hit_01/hit_01_ske.json",
+			"type": "json",
+			"name": "hit_01_ske_json"
+		},
+		{
+			"url": "Common/animation/common/hit_01/hit_01_tex.json",
+			"type": "json",
+			"name": "hit_01_tex_json"
+		},
+		{
+			"url": "Common/animation/common/ui_danger/ui_danger_tex.png",
+			"type": "image",
+			"name": "ui_danger_tex_png"
+		},
+		{
+			"url": "Common/animation/common/ui_danger/ui_danger_tex.json",
+			"type": "json",
+			"name": "ui_danger_tex_json"
+		},
+		{
+			"url": "Common/animation/common/ui_danger/ui_danger_ske.json",
+			"type": "json",
+			"name": "ui_danger_ske_json"
+		},
+		{
+			"url": "Common/animation/common/ui_tishi/ui_tishi_tex.png",
+			"type": "image",
+			"name": "ui_tishi_tex_png"
+		},
+		{
+			"url": "Common/animation/common/ui_tishi/ui_tishi_ske.json",
+			"type": "json",
+			"name": "ui_tishi_ske_json"
+		},
+		{
+			"url": "Common/animation/common/ui_tishi/ui_tishi_tex.json",
+			"type": "json",
+			"name": "ui_tishi_tex_json"
+		}
+	]
+}

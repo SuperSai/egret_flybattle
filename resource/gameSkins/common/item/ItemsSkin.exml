@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="ItemsSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bgImg" horizontalCenter="0" verticalCenter="0" source="com.icon_wupinkuang"/>
+	<e:Image id="iconImg" source="" horizontalCenter="0" verticalCenter="0"/>
+	<e:Label id="txt_count" text="0" y="82" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0xffffff" stroke="2" strokeColor="0x2e2c31" right="12" textAlign="right"/>
+	<e:Image id="selectImg" source="com.com_item_xuanzhong" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

@@ -1,0 +1,4 @@
+class ActivityItem {
+	public constructor() {
+	}
+}

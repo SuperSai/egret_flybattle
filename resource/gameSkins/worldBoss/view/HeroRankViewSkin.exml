@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="HeroRankViewSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image source="heroRank_json.heroRank_biaoti" horizontalCenter="0" top="0"/>
+		<e:List id="lists" width="574" horizontalCenter="0" verticalCenter="58">
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+	</e:Group>
+</e:Skin>

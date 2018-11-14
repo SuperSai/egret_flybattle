@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleMainViewSkin" width="720" height="1280" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+	<e:Group left="0" right="0" top="0" bottom="0">
+		<e:Image source="com.icon_beijingdi" scale9Grid="4,5,30,30" left="0" right="0" top="0" bottom="0" x="0" y="0" scaleX="1" scaleY="1"/>
+		<e:Image id="heroMask" alpha="0.1" left="24" height="660" scaleX="1.7" scaleY="1.7" top="-96"/>
+		<e:Image id="heroImg" left="0" x="10" height="660" top="10"/>
+		<e:Image source="role_json.role_icon_toumingdi" horizontalCenter="0" bottom="0"/>
+		<e:Group right="22" top="74">
+			<e:Image source="role_json.role_icon_di5" scale9Grid="15,15,47,39" width="430" height="494" horizontalCenter="0" verticalCenter="0"/>
+			<e:Image source="role_json.role_icon_xingmingdi" horizontalCenter="0.5" top="12"/>
+			<e:Image source="role_json.role_icon_di1" left="18" top="4"/>
+			<e:Image source="role_json.role_icon_fenjiexian" y="120" scale9Grid="17,0,32,3" width="350" horizontalCenter="0"/>
+			<e:Image id="skillBg0" source="role_json.role_icon_di4" y="134.33" scale9Grid="15,12,42,46" width="112" left="38" anchorOffsetY="0" height="120"/>
+			<e:Image id="skillBg1" source="role_json.role_icon_di4" y="134.33" scale9Grid="15,12,42,46" width="112" height="120" anchorOffsetY="0" horizontalCenter="0"/>
+			<e:Image id="skillBg2" source="role_json.role_icon_di4" y="134.33" scale9Grid="15,12,42,46" width="112" height="120" anchorOffsetY="0" right="38"/>
+			<e:Image source="role_json.role_icon_di4" y="243" scale9Grid="12,12,47,46" width="382" height="122" scaleX="1" scaleY="1" horizontalCenter="-2"/>
+			<e:Label id="txt_skillName" text="技能名称" y="252" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x5e4c57" left="33"/>
+			<e:Label id="txt_skillDes" text="描述" y="286" fontFamily="Microsoft YaHei" bold="true" size="26" textColor="0x5E4C57" anchorOffsetX="0" left="33" width="359"/>
+			<e:Image x="262.33" y="77.67" source="com.com_icon_sh"/>
+			<e:Label id="txt_attack" text="0" y="79.01" fontFamily="Microsoft YaHei" bold="true" textColor="0x554d4d" textAlign="center" left="313"/>
+			<e:Label text="Lv" y="76.66" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" textAlign="center" left="56"/>
+			<e:Label id="txt_level" text="0" y="77" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D" textAlign="center" left="110"/>
+			<e:Label id="txt_heroName" text="角色名字" y="19.37" fontFamily="Microsoft YaHei" bold="true" textAlign="center" textColor="0x2e2c31" horizontalCenter="0"/>
+			<e:List id="listSkill" height="108" y="135" left="41">
+				<e:layout>
+					<e:HorizontalLayout horizontalAlign="left" verticalAlign="bottom" gap="14"/>
+				</e:layout>
+			</e:List>
+		</e:Group>
+		<e:Button id="btn_sell" label="" name="btn_sell_1#1" touchChildren="false" verticalCenter="-7.5" horizontalCenter="-294.5">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="role_json.role_btn_1" source.down="role_json.role_btn_1" source.disabled="role_json.role_btn_1"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Group id="btn_level" verticalCenter="-155.5" name="btn_level_1#1" touchChildren="false" horizontalCenter="115.5">
+			<e:Image source="com.btn_anniu1" x="0" y="0" scale9Grid="41,33,99,25" anchorOffsetX="0" width="231" anchorOffsetY="0" height="101"/>
+			<e:Label id="txt_btn" text="升级" horizontalCenter="0" verticalCenter="0" textAlign="center" verticalAlign="middle" bold="true" textColor="0x2e2c31" fontFamily="Microsoft YaHei"/>
+		</e:Group>
+		<e:Group y="528" horizontalCenter="118.5">
+			<e:Image source="com.com_item_1" x="0" y="0"/>
+			<e:Label id="txt_gold" text="0" y="3" size="24" bold="true" fontFamily="Microsoft YaHei" textColor="0x554d4d" x="34"/>
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="center" verticalAlign="middle"/>
+			</e:layout>
+		</e:Group>
+		<e:Group id="btn_ssr" horizontalCenter="-147" verticalCenter="-8" name="btnSSRImg" touchChildren="false">
+			<e:Image id="btnSSRImg" source="com.btn_anniu2" x="0" y="0"/>
+			<e:Label text="SSR" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x554d4d"/>
+		</e:Group>
+		<e:Group id="btn_sr" horizontalCenter="-2" verticalCenter="-8" name="btnSRImg" touchChildren="false">
+			<e:Image id="btnSRImg" source="com.btn_anniu2" x="0" y="0"/>
+			<e:Label text="SR" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D"/>
+		</e:Group>
+		<e:Group id="btn_r" horizontalCenter="143" verticalCenter="-8" name="btnRImg" touchChildren="false">
+			<e:Image id="btnRImg" source="com.btn_anniu2" x="0" y="0"/>
+			<e:Label text="R" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x554D4D"/>
+		</e:Group>
+		<e:Group id="btn_all" horizontalCenter="288" verticalCenter="-8" name="btnAllImg" touchChildren="false">
+			<e:Image id="btnAllImg" x="0" y="0" source="com.btn_anniu1"/>
+			<e:Label text="全部" horizontalCenter="0" verticalCenter="0" fontFamily="Microsoft YaHei" bold="true" textColor="0x2e2c31"/>
+		</e:Group>
+		<e:Image y="499.99" scale9Grid="48,0,12,52" source="com.com_icon_di5" alpha="0.7" left="0"/>
+		<e:Image id="quaImg" source="com.com_qua_3" y="450.67" horizontalCenter="-259.5"/>
+		<e:Scroller height="590" verticalCenter="331" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0" locked="true">
+			<e:Group>
+				<e:List id="listRole" horizontalCenter="0" top="0">
+					<e:layout>
+						<e:TileLayout horizontalAlign="center" verticalAlign="top" requestedColumnCount="3" columnWidth="208" horizontalGap="36" rowHeight="250"/>
+					</e:layout>
+				</e:List>
+			</e:Group>
+		</e:Scroller>
+		<e:Button id="btn_close" label="" bottom="0" right="0" name="btn_close_1#1" touchChildren="false">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="com.btn_fanhui" source.down="com.btn_fanhui" source.disabled="com.btn_fanhui"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:List id="listStar" height="53" y="500.34" left="15">
+			<e:layout>
+				<e:HorizontalLayout horizontalAlign="left" verticalAlign="middle"/>
+			</e:layout>
+		</e:List>
+		<ns1:CurrencyItem id="gold" skinName="CurrencyItemSkin" top="14" right="222"/>
+		<ns1:CurrencyItem id="diamond" skinName="CurrencyItemSkin" top="14" right="22"/>
+	</e:Group>
+</e:Skin>
