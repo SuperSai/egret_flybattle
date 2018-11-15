@@ -45,7 +45,7 @@ class ServerItem extends BaseItem {
 
 	private clickHandler(): void {
 		let self = this;
-		App.ControllerManager.applyFunc(ControllerConst.Login, LoginConst.SELECT_SERVER, self.data);
 		App.ControllerManager.applyFunc(ControllerConst.Login, LoginConst.SELECT_SERVER_VIEW, self.data);
+		App.ControllerManager.applyFunc(ControllerConst.Login, LoginConst.SELECT_SERVER, self.data);
 	}
 }

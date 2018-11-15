@@ -107,4 +107,10 @@ class ServerView extends BaseAlert {
 		let self = this;
 		App.ViewManager.close(ViewConst.ServerView);
 	}
+
+	public close(...param: any[]): void {
+		super.close(param);
+		let self = this;
+		self.showType = -1;
+	}
 }
